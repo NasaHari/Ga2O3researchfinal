@@ -32,17 +32,17 @@ Axisymmetric drift--diffusion simulations are used to evaluate planar, mesa, and
 \end{IEEEkeywords}
 
 \section{Introduction}
-Vertical \GaO{} rectifiers are attractive for high-voltage switching, yet the absence of a shallow \GaO{} acceptor forces edge terminations to rely on a different $p$-type material. Yang \emph{et al.} reported unterminated 105-$\mu$m Schottky rectifiers with a mean breakdown voltage of $975\pm40$~V and showed that blocking voltage falls for larger contact diameters~\cite{Yang2017}, providing an unterminated baseline for evaluating edge terminations.
+Vertical \GaO{} rectifiers are attractive for high-voltage switching~\cite{Pearton2018_APR}, yet the absence of a shallow \GaO{} acceptor due to hole self-trapping~\cite{Varley2012_PRB} forces edge terminations to rely on a different $p$-type material. Yang \emph{et al.} reported unterminated 105-$\mu$m Schottky rectifiers with a mean breakdown voltage of $975\pm40$~V and showed that blocking voltage falls for larger contact diameters~\cite{Yang2017}, providing an unterminated baseline for evaluating edge terminations.
 
-\pGaN{} grown or sputtered on \GaO{} supplies the missing $p$-type region. It can be configured as a lateral junction termination extension (JTE), as junction-barrier Schottky (JBS) rings inside the active area, or as both together with a field plate (FP). Simulated \pGaN/\GaO{} JBS structures have been reported~\cite{Nandi2021_TED,Than2024_PhysScr}, and experimental devices now include a 3-kV sputtered-\pGaN{} JTE diode~\cite{Chang2025_APL} and a 4.3-kV \pGaN{} heterojunction-barrier rectifier~\cite{Chang2026_TED}. Low-barrier anodes are also of interest, since a NiO/\GaO{} JBS diode combining a 0.64-V turn-on with 2.34-kV blocking has been demonstrated~\cite{Su2024_APL}.
+Earlier vertical \GaO{} rectifiers demonstrated edge-field management using field plates~\cite{Konishi2017_APL}, recessed trench channels~\cite{Li2020_EDL}, and $p$-NiO heterojunctions~\cite{Gong2020_APL}. Alternatively, \pGaN{} grown or sputtered on \GaO{} supplies the missing $p$-type region and can be configured as a lateral junction termination extension (JTE), as junction-barrier Schottky (JBS) rings inside the active area, or as both together with a field plate (FP). Simulated \pGaN/\GaO{} JBS structures have been reported~\cite{Nandi2021_TED,Than2024_PhysScr}, and experimental devices now include a 3-kV sputtered-\pGaN{} JTE diode~\cite{Chang2025_APL} and a 4.3-kV \pGaN{} heterojunction-barrier rectifier~\cite{Chang2026_TED}. Low-barrier anodes are also of interest, since a NiO/\GaO{} JBS diode combining a 0.64-V turn-on with 2.34-kV blocking has been demonstrated~\cite{Su2024_APL}.
 
 This study compares forward conduction and reverse blocking across bare, planar JTE, mesa JBS, and trench JBS \pGaN{} architectures, and evaluates how \pGaN{} thickness, Mg acceptor concentration, Schottky barrier height, and temperature shift the turn-on versus blocking trade-off.
 
 \section{Simulation Model}
 \subsection{Transport and material parameters}
-The simulations use Sentaurus Device V-2024.03~\cite{Sentaurus2024} in cylindrical coordinates with Fermi statistics, doping-dependent mobility, and high-field velocity saturation. Incomplete ionization is applied to the donor species in \GaO{} and to Mg in GaN. The Mg activation model uses $E_0=0.20$~eV with a concentration-dependent coefficient of $8.0\times10^{-9}$~eV\,cm and a degeneracy factor of 4, giving 4.0--6.9\% ionized acceptors at 298~K across the three zones; the ionized fraction rises toward unity where the layer is depleted under reverse bias. Thermionic transport is enabled at the GaN/\GaO{} interface, and a fixed sheet charge of $-2.67\times10^{11}$~cm$^{-2}$ is placed at the \GaO/Al$_2$O$_3$ boundary. Ambient regions are represented as an ideal dielectric with $\varepsilon_r=1$, matching the reference diode, whose characteristics were measured unpassivated in air on a probe station~\cite{Yang2017}; the 298 and 350~K simulations lie inside that measured 25--100~$^\circ$C window, and 400~K lies above it.
+The simulations use Sentaurus Device V-2024.03~\cite{Sentaurus2024} in cylindrical coordinates with Fermi statistics, doping-dependent mobility, and high-field velocity saturation. Incomplete ionization is applied to the donor species in \GaO{}~\cite{Neal2018_APL} and to Mg in GaN~\cite{Kozodoy2000_JAP}. The Mg activation model uses $E_0=0.20$~eV with a concentration-dependent coefficient of $8.0\times10^{-9}$~eV\,cm and a degeneracy factor of 4, giving 4.0--6.9\% ionized acceptors at 298~K across the three zones; the ionized fraction rises toward unity where the layer is depleted under reverse bias. Thermionic transport is enabled at the GaN/\GaO{} interface, and a fixed sheet charge of $-2.67\times10^{11}$~cm$^{-2}$ is placed at the \GaO/Al$_2$O$_3$ boundary. Ambient regions are represented as an ideal dielectric with $\varepsilon_r=1$, matching the reference diode, whose characteristics were measured unpassivated in air on a probe station~\cite{Yang2017}; the 298 and 350~K simulations lie inside that measured 25--100~$^\circ$C window, and 400~K lies above it.
 
-The nominal Schottky work function is 5.10~eV, giving a 1.10-eV input barrier against the \GaO{} electron affinity of 4.00~eV. The simulations include image-force barrier lowering and nonlocal electron tunneling with an effective mass of $0.38m_0$ and a 15-nm path length. The reported architecture and sweep results use a tunneling prefactor $g=1.56\times10^{-8}$.
+The nominal Schottky work function is 5.10~eV, giving a 1.10-eV input barrier against the \GaO{} electron affinity of 4.00~eV. The simulations include image-force barrier lowering and nonlocal electron tunneling~\cite{Higashiwaki2016_APL,Li2020_APL} with an effective mass of $0.38m_0$ and a 15-nm path length. The reported architecture and sweep results use a tunneling prefactor $g=1.56\times10^{-8}$.
 
 \begin{table}[!t]
 \caption{Reverse-Transport Parameters Used in the Simulations}
@@ -64,7 +64,7 @@ The coefficients enter $\alpha=\gamma a\exp(-\gamma b/F)$, with $F$ the quasi-Fe
 \end{minipage}
 \end{table}
 
-Impact ionization uses the van Overstraeten form with the quasi-Fermi gradient as the driving force, so the plotted electrostatic field alone does not serve as a multiplication criterion. The \GaO{} electron coefficients follow Ghosh and Singisetti~\cite{Ghosh2018_JAP}; the GaN coefficients are the standard set used for the GaN transport block (Table~\ref{tab:model}). The \GaO{} permittivity is taken as $12.4\varepsilon_0$, the c-axis static value~\cite{Fiedler2019_ECS}.
+Impact ionization uses the van Overstraeten form~\cite{VanOverstraeten1970_SSE} with the quasi-Fermi gradient as the driving force, so the plotted electrostatic field alone does not serve as a multiplication criterion. The \GaO{} electron coefficients follow Ghosh and Singisetti~\cite{Ghosh2018_JAP}; the GaN coefficients are the standard set used for the GaN transport block (Table~\ref{tab:model}). The \GaO{} permittivity is taken as $12.4\varepsilon_0$, the c-axis static value~\cite{Fiedler2019_ECS}.
 
 The reverse decks include a constant optical generation of $10^{13}$~cm$^{-3}$s$^{-1}$ for numerical stabilization. For a 10-$\mu$m drift layer, the direct-generation current scale $qGd$ is $1.6\times10^{-9}$~A/cm$^2$ before multiplication, well below the operational current criterion.
 
@@ -92,7 +92,7 @@ Two figures of merit are evaluated separately:
 M_{\mathrm{on}}&=\frac{V_{\mathrm{BR,op}}^2}{V_{\mathrm{on},1}} &&[\mathrm{V}],\\
 B&=\frac{V_{\mathrm{BR,op}}^2}{R_{\mathrm{on,sp}}} &&[\mathrm{W/cm}^2].
 \end{align}
-Equation~(2) targets the blocking/turn-on trade-off, whereas (3) is the conventional Baliga metric. Because $M_{\mathrm{on}}$ weights turn-on voltage while $B$ weights on-resistance, the two metrics can favor different designs.
+Equation~(2) targets the blocking/turn-on trade-off, whereas (3) is the conventional Baliga metric~\cite{Baliga1982_JAP}. Because $M_{\mathrm{on}}$ weights turn-on voltage while $B$ weights on-resistance, the two metrics can favor different designs.
 
 \section{Device Structures}
 \begin{figure}[!t]
@@ -190,19 +190,20 @@ Because each electric-field map in Fig.~\ref{fig:fields} is saved at its own fin
 \label{fig:bands}
 \end{figure}
 
-At equilibrium, vertical band cuts at $r=60~\mu$m (Fig.~\ref{fig:bands}(a),(b)) use electron affinities of 4.00~eV for \GaO{} and 3.922~eV for GaN (0.078~eV conduction-band offset and $\approx 1.4$~eV valence-band offset, with 298-K band gaps of 4.80 and 3.44~eV). Because the \pGaN{} termination is much more heavily doped than the $2.0\times10^{16}$~cm$^{-3}$ drift layer, the zero-bias band bending drops almost entirely inside the \GaO{} drift, causing the equilibrium curves across different doses and thicknesses to overlap closely. The strong sensitivity seen in the reverse drift-region field profiles (Fig.~\ref{fig:bands}(c),(d)) therefore arises from lateral depletion and charge balance under reverse bias.
+At equilibrium, vertical band cuts at $r=60~\mu$m (Fig.~\ref{fig:bands}(a),(b)) use electron affinities of 4.00~eV for \GaO{} and 3.922~eV for GaN (0.078~eV conduction-band offset and $\approx 1.4$~eV valence-band offset~\cite{Wei2012_NRL}, with 298-K band gaps of 4.80 and 3.44~eV). Because the \pGaN{} termination is much more heavily doped than the $2.0\times10^{16}$~cm$^{-3}$ drift layer, the zero-bias band bending drops almost entirely inside the \GaO{} drift, causing the equilibrium curves across different doses and thicknesses to overlap closely. The strong sensitivity seen in the reverse drift-region field profiles (Fig.~\ref{fig:bands}(c),(d)) therefore arises from lateral depletion and charge balance under reverse bias.
 
 \subsection{Schottky barrier height}
-\begin{figure*}[!t]
+\begin{figure}[!t]
 \centering
-\includegraphics[width=0.82\textwidth]{barrier.pdf}
+\includegraphics[width=\columnwidth]{barrier.pdf}
 \caption{Input-barrier sweep at 298.15~K: (a) turn-on at 1~A/cm$^2$, (b) blocking at 1~mA/cm$^2$, and (c) $M_{\mathrm{on}}$. Two incomplete trench forward sweeps at 0.90 and 1.30~eV are omitted from (a) and (c); their valid reverse crossings are included in (b).}
 \label{fig:barrier}
-\end{figure*}
+\end{figure}
 
-Sweeping the input Schottky barrier from 0.75 to 1.50~eV (Fig.~\ref{fig:barrier}) lowers the planar turn-on voltage $\Von$ from 0.701~V at 1.10~eV down to 0.354~V at 0.75~eV while keeping the 1~mA/cm$^2$ blocking crossing near 2336~V. Over the same sweep, the trench crossing remains steady near 1.13~kV, while the mesa crossing dips slightly from 2336 to 2061~V at 0.75~eV.
+Sweeping the input Schottky barrier from 0.75 to 1.50~eV (Fig.~\ref{fig:barrier}) lowers the planar turn-on voltage $\Von$ from 0.70
+1~V at 1.10~eV down to 0.354~V at 0.75~eV while keeping the 1~mA/cm$^2$ blocking crossing near 2336~V. Over the same sweep, the trench crossing remains steady near 1.13~kV, while the mesa crossing dips slightly from 2336 to 2061~V at 0.75~eV.
 
-However, reducing the barrier to 0.75~eV increases the planar reverse leakage at $-1$~kV from $8.6\times10^{-9}$ to $1.10\times10^{-4}$~A/cm$^2$. As a result, under a tighter 0.1~mA/cm$^2$ leakage criterion, the blocking threshold drops from 2335 to 926~V for the 150-nm planar structure and to 925~V for the 80-nm design in Table~\ref{tab:architectures}, meaning that reverse-leakage specifications ultimately cap how low the barrier can be set.
+However, reducing the barrier to 0.75~eV increases the planar reverse leakage at $-1$~kV from $8.6\times10^{-9}$ to $1.10\times10^{-4}$~A/cm$^2$, reflecting the strong tunneling sensitivity of low-barrier \GaO{} Schottky contacts~\cite{Li2020_APL}. As a result, under a tighter 0.1~mA/cm$^2$ leakage criterion, the blocking threshold drops from 2335 to 926~V for the 150-nm planar structure and to 925~V for the 80-nm design in Table~\ref{tab:architectures}, meaning that reverse-leakage specifications ultimately cap how low the barrier can be set.
 
 \subsection{Temperature}
 \begin{figure}[!t]
@@ -212,7 +213,7 @@ However, reducing the barrier to 0.75~eV increases the planar reverse leakage at
 \label{fig:temperature}
 \end{figure}
 
-Raising the ambient temperature from 298 to 400~K shifts the dominant reverse-leakage mechanism across the terminated families (Fig.~\ref{fig:temperature}). Between 298 and 350~K, the planar crossing increases from 2336~V to a bracket of 2430--2446~V (and the mesa crossing rises to 2440~V), consistent with a positive temperature coefficient of avalanche breakdown in the \pGaN{} termination. At 400~K, enhanced Schottky electron emission causes the planar and mesa devices to cross 1~mA/cm$^2$ on the electron-leakage branch at 1473 and 2007~V, respectively, while the trench crossings progress from 1133~V (298~K) to 1280~V (350~K) and 1438~V (400~K).
+Raising the ambient temperature from 298 to 400~K shifts the dominant reverse-leakage mechanism across the terminated families (Fig.~\ref{fig:temperature}). Between 298 and 350~K, the planar crossing increases from 2336~V to a bracket of 2430--2446~V (and the mesa crossing rises to 2440~V), consistent with a positive temperature coefficient of avalanche breakdown in the \pGaN{} termination. At 400~K, enhanced Schottky electron emission~\cite{Higashiwaki2016_APL} causes the planar and mesa devices to cross 1~mA/cm$^2$ on the electron-leakage branch at 1473 and 2007~V, respectively, while the trench crossings progress from 1133~V (298~K) to 1280~V (350~K) and 1438~V (400~K).
 
 At the 400-K planar crossing, the reverse current is dominated by Schottky electron leakage. Although the mesa structure exhibits higher local leakage per unit exposed Schottky area at matched bias, it occupies only 54.2\% of the planar exposed Schottky area; its higher 1~mA/cm$^2$ crossing on $A_{\mathrm{ref}}$ is therefore largely an area-scaling effect. When the criterion is raised to 10~mA/cm$^2$ at 400~K, both planar and mesa devices cross on the steep hole-dominated avalanche rise at 2545 and 2551~V (with overlapping brackets of 2540.1--2555.6 and 2550.8--2551.2~V), whereas the trench crosses at 1439~V.
 

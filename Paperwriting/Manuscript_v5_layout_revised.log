@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.13)  24 NOV 2026 23:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.13)  25 NOV 2026 00:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -475,24 +475,26 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
 (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figures/numerical_sensitivity.pdf, id=74, 525.16153pt x 189.12558pt>
+Underfull \vbox (badness 1097) has occurred while \output is active []
+
+ [1{C:/Users/haria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/h
+aria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+
+
+]
+<figures/numerical_sensitivity.pdf, id=130, 525.16153pt x 189.12558pt>
 File: figures/numerical_sensitivity.pdf Graphic file (type pdf)
 <use figures/numerical_sensitivity.pdf>
 Package pdftex.def Info: figures/numerical_sensitivity.pdf  used on input line 
 74.
 (pdftex.def)             Requested size: 252.0pt x 90.75038pt.
-
-[1{C:/Users/haria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ha
-ria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-
-
-]
-<figures/structures.png, id=114, 520.344pt x 350.5095pt>
+<figures/structures.png, id=134, 520.344pt x 350.5095pt>
 File: figures/structures.png Graphic file (type png)
 <use figures/structures.png>
 Package pdftex.def Info: figures/structures.png  used on input line 100.
 (pdftex.def)             Requested size: 252.0pt x 169.75089pt.
-<figures/electrical.pdf, id=118, 542.025pt x 234.8775pt>
+ [2 <./figures/numerical_sensitivity.pdf> <./figures/structures.png>]
+<figures/electrical.pdf, id=165, 542.025pt x 234.8775pt>
 File: figures/electrical.pdf Graphic file (type pdf)
 <use figures/electrical.pdf>
 Package pdftex.def Info: figures/electrical.pdf  used on input line 142.
@@ -502,35 +504,30 @@ Underfull \hbox (badness 4156) in paragraph at lines 147--148
 []\T1/ptm/m/n/10 Room-temperature for-ward and re-verse char-ac-ter-is-tics
  []
 
-[2 <./figures/numerical_sensitivity.pdf> <./figures/structures.png>]
-<figures/bare_yang_benchmark.pdf, id=150, 251.4996pt x 175.6161pt>
+<figures/bare_yang_benchmark.pdf, id=170, 251.4996pt x 175.6161pt>
 File: figures/bare_yang_benchmark.pdf Graphic file (type pdf)
 <use figures/bare_yang_benchmark.pdf>
 Package pdftex.def Info: figures/bare_yang_benchmark.pdf  used on input line 15
 1.
 (pdftex.def)             Requested size: 252.0pt x 175.97475pt.
-<figures/architecture_reverse_fields.pdf, id=155, 531.18451pt x 372.19049pt>
+<figures/architecture_reverse_fields.pdf, id=175, 531.18451pt x 372.19049pt>
 File: figures/architecture_reverse_fields.pdf Graphic file (type pdf)
 <use figures/architecture_reverse_fields.pdf>
 Package pdftex.def Info: figures/architecture_reverse_fields.pdf  used on input
  line 160.
 (pdftex.def)             Requested size: 252.0pt x 176.57083pt.
-<figures/geometry_sensitivity.pdf, id=156, 542.025pt x 195.129pt>
+<figures/geometry_sensitivity.pdf, id=176, 542.025pt x 195.129pt>
 File: figures/geometry_sensitivity.pdf Graphic file (type pdf)
 <use figures/geometry_sensitivity.pdf>
 Package pdftex.def Info: figures/geometry_sensitivity.pdf  used on input line 1
 68.
 (pdftex.def)             Requested size: 252.0pt x 90.71915pt.
-
-Underfull \vbox (badness 5832) has occurred while \output is active []
-
- [3 <./figures/electrical.pdf> <./figures/bare_yang_benchmark.pdf>]
-<reverse_field_contacts.pdf, id=220, 523.9575pt x 328.8285pt>
+<reverse_field_contacts.pdf, id=180, 523.9575pt x 328.8285pt>
 File: reverse_field_contacts.pdf Graphic file (type pdf)
 <use reverse_field_contacts.pdf>
 Package pdftex.def Info: reverse_field_contacts.pdf  used on input line 179.
 (pdftex.def)             Requested size: 252.0pt x 158.152pt.
-<figures/bands_fields.pdf, id=222, 513.11702pt x 354.12299pt>
+<figures/bands_fields.pdf, id=182, 513.11702pt x 354.12299pt>
 File: figures/bands_fields.pdf Graphic file (type pdf)
 <use figures/bands_fields.pdf>
 Package pdftex.def Info: figures/bands_fields.pdf  used on input line 188.
@@ -541,21 +538,24 @@ Underfull \hbox (badness 2027) in paragraph at lines 193--194
 \OT1/cmr/m/n/10 = 60 \OML/cmm/m/it/10 ^^V$\T1/ptm/m/n/10 m
  []
 
-<figures/barrier.pdf, id=225, 542.025pt x 180.675pt>
+<figures/barrier.pdf, id=186, 542.025pt x 180.675pt>
 File: figures/barrier.pdf Graphic file (type pdf)
 <use figures/barrier.pdf>
 Package pdftex.def Info: figures/barrier.pdf  used on input line 198.
-(pdftex.def)             Requested size: 423.12378pt x 141.04723pt.
-[4 <./figures/architecture_reverse_fields.pdf> <./figures/geometry_sensitivity.
-pdf> <./reverse_field_contacts.pdf> <./figures/bands_fields.pdf>]
-<figures/reverse_400K.pdf, id=372, 247.1634pt x 148.1535pt>
+(pdftex.def)             Requested size: 252.0pt x 83.9992pt.
+<figures/reverse_400K.pdf, id=190, 247.1634pt x 148.1535pt>
 File: figures/reverse_400K.pdf Graphic file (type pdf)
 <use figures/reverse_400K.pdf>
-Package pdftex.def Info: figures/reverse_400K.pdf  used on input line 210.
+Package pdftex.def Info: figures/reverse_400K.pdf  used on input line 211.
 (pdftex.def)             Requested size: 252.0pt x 151.05579pt.
- [5 <./figures/barrier.pdf> <./figures/reverse_400K.pdf>] (Manuscript_v5_layout
-_revised.bbl)
-[6] (Manuscript_v5_layout_revised.aux)
+[3]
+Underfull \vbox (badness 5832) has occurred while \output is active []
+
+ [4 <./figures/electrical.pdf> <./figures/bare_yang_benchmark.pdf> <./figures/a
+rchitecture_reverse_fields.pdf>] [5 <./figures/geometry_sensitivity.pdf> <./rev
+erse_field_contacts.pdf> <./figures/bands_fields.pdf> <./figures/barrier.pdf> <
+./figures/reverse_400K.pdf>] (Manuscript_v5_layout_revised.bbl) [6]
+(Manuscript_v5_layout_revised.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -565,13 +565,13 @@ anged.
 (rerunfilecheck)             Checksum: 781CA81109788D21F48377DA139524C4;2564.
  ) 
 Here is how much of TeX's memory you used:
- 11249 strings out of 467871
- 177128 string characters out of 5418376
- 610582 words of memory out of 5000000
- 39932 multiletter control sequences out of 15000+600000
+ 11273 strings out of 467871
+ 177552 string characters out of 5418376
+ 614188 words of memory out of 5000000
+ 39944 multiletter control sequences out of 15000+600000
  750707 words of font info for 179 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,1127b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,1134b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmmi10.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi12.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -598,9 +598,9 @@ a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 ><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb
 ><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on Manuscript_v5_layout_revised.pdf (6 pages, 1135710 bytes).
+Output written on Manuscript_v5_layout_revised.pdf (6 pages, 1142587 bytes).
 PDF statistics:
- 562 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
+ 590 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
  171 words of extra memory for PDF output out of 10000 (max. 10000000)
 
