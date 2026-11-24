@@ -1,0 +1,16 @@
+case,rev_plt,solver_log,tdr_0V_bands,tdr_final_field,scm
+2A_Mesa_Mg_0p50x,yes,yes,yes,yes,build_2A_Mesa_dop_0p50x_sn.scm
+2A_Mesa_Mg_2p00x,yes,yes,yes,yes,build_2A_Mesa_dop_2p00x_sn.scm
+2A_Planar_Mg_0p25x,yes,yes,yes,yes,build_2A_V5_dop_0p25x_sn.scm
+2A_Planar_Mg_0p50x,yes,yes,yes,yes,build_2A_V5_dop_0p50x_sn.scm
+2A_Planar_Mg_0p75x,yes,yes,yes,yes,build_2A_V5_dop_0p75x_sn.scm
+2A_Planar_Mg_1p50x,yes,yes,yes,yes,build_2A_V5_dop_1p50x_sn.scm
+2A_Planar_Mg_2p00x,yes,yes,yes,yes,build_2A_V5_dop_2p00x_sn.scm
+2A_Trench_Mg_0p50x,yes,yes,yes,yes,build_2A_Trench_dop_0p50x_sn.scm
+2A_Trench_Mg_2p00x,yes,yes,yes,yes,build_2A_Trench_dop_2p00x_sn.scm
+2B_Mesa_h0p25um,yes,yes,yes,yes,build_2B_Mesa_tmesa_0p25um_sn.scm
+2B_Mesa_h1p00um,yes,yes,yes,yes,build_2B_Mesa_tmesa_1p00um_sn.scm
+2B_Planar_t0p08um,yes,NO,MISSING,MISSING,build_planar_080nm_sn.scm
+2B_Planar_t0p25um,yes,yes,yes,yes,build_2B_V5_tpgan_0p25um_sn.scm
+2B_Planar_t0p35um,yes,yes,yes,yes,build_2B_V5_tpgan_0p35um_sn.scm
+2B_Trench_d1p50um,yes,yes,yes,yes,build_2B_Trench_dtrench_1p50um_sn.scm

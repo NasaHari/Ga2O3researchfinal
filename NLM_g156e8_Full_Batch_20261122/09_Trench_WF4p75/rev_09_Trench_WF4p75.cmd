@@ -1,0 +1,62 @@
+* Parameterized Reverse Sweep (09_Trench_WF4p75, WF=4.750, T=298.15, g=1.56e-8, Sn-substrate)
+File {
+  Grid      = "../meshes/trench_150nm_sn_msh.tdr"
+  Parameter = "../common/des_v5_lean_g156e8.par"
+  Plot      = "rev_09_Trench_WF4p75.tdr"
+  Current   = "rev_09_Trench_WF4p75.plt"
+  Output    = "rev_09_Trench_WF4p75.log"
+}
+Electrode {
+  { Name="anode"      Voltage=0.0 Schottky WorkFunction=4.750 }
+  { Name="anode_pgan" Voltage=0.0 }
+  { Name="anode_fp"   Voltage=0.0 }
+  { Name="cathode"    Voltage=0.0 DistResist=1.0e-4 Resist=1.0e4 }
+}
+Physics {
+  Temperature = 298.15
+  Fermi
+  Mobility(DopingDependence HighFieldSaturation(GradQuasiFermi))
+  Recombination(SRH Auger Avalanche(vanOverstraeten GradQuasiFermi))
+  Thermionic
+  eBarrierTunneling "NLM_Anode" ( )
+  Optics ( OpticalGeneration ( SetConstant (Value = 1.0e13) ) )
+}
+Physics(Material="Ga2O3") { IncompleteIonization(Dopants="nSiliconActiveConcentration nTinActiveConcentration") }
+Physics(Material="GaN")   { IncompleteIonization(Dopants="pMagnesiumActiveConcentration") }
+Physics(MaterialInterface="GaN/Ga2O3") { Thermionic RecVel(TempDep) }
+Physics(Electrode="anode") { BarrierLowering eRecVel(TempDep) }
+Physics(MaterialInterface="Ga2O3/AluminumOxide") { Recombination(SurfaceSRH) Traps((FixedCharge Conc=-2.67e11)) }
+Physics(MaterialInterface="GaN/AluminumOxide")   { Recombination(SurfaceSRH) }
+Plot {
+  eDensity hDensity Potential SpaceCharge ElectricField/Vector
+  eCurrent/Vector hCurrent/Vector TotalCurrent/Vector
+  ConductionBandEnergy ValenceBandEnergy eQuasiFermiEnergy hQuasiFermiEnergy
+  Doping DonorConcentration AcceptorConcentration DonorPlusConcentration AccepMinusConcentration IonizedDopingConcentration
+  AvalancheGeneration eAvalanche hAvalanche eAlphaAvalanche hAlphaAvalanche
+  eBarrierTunneling NonLocal eIonIntegral hIonIntegral MeanIonIntegral
+}
+Math {
+  ExitOnFailure ComputeIonizationIntegrals() Cylindrical(xAxis=0) -CheckUndefinedModels
+  -Extrapolate Derivatives AvalDerivatives ExtendedPrecision(80)
+  RelErrControl Digits=4 Iterations=50 NotDamped=18 LineSearchDamping=0.5
+  ErrRef(Electron)=1e4 ErrRef(Hole)=1e4 RHSMin=1e-6
+  Method=ParDiSo(NonsymmetricPermutation IterativeRefinement)
+  CNormPrint NumberOfThreads=4 Wallclock ParameterInheritance=Flatten
+  AvalDensGradQF ParallelToInterfaceInBoundaryLayer(FullLayer) AvalFlatElementExclusion=1
+  RefDens_eGradQuasiFermi_ElectricField=1e10 RefDens_hGradQuasiFermi_ElectricField=1e10
+  ComputeGradQuasiFermiAtContacts=UseQuasiFermi WithDistResistOnSemi
+  NonLocal "NLM_Anode" (Electrode="anode" Length=15e-7 Direction=(0 1 0) MaxAngle=5 Digits=3 EnergyResolution=5e-3 RefinedIntervals=1e-8)
+  BreakCriteria { Current(Contact="cathode" AbsVal=1.0e-3) }
+}
+Solve {
+  Coupled(Iterations=100) { Poisson }
+  Coupled(Iterations=100) { Poisson Electron Hole }
+  Quasistationary(InitialStep=1e-3 MaxStep=0.035 MinStep=1e-12 Increment=1.6 Decrement=2.0
+    Goal { Name="anode"      Voltage=-3000.0 }
+    Goal { Name="anode_pgan" Voltage=-3000.0 }
+    Goal { Name="anode_fp"   Voltage=-3000.0 }
+  ) {
+    Coupled { Poisson Electron Hole }
+  }
+  Plot(FilePrefix="rev_09_Trench_WF4p75_final")
+}

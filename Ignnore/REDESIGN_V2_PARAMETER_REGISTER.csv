@@ -1,0 +1,16 @@
+id,quantity,scope,starting_value,units,evidence_status,evidence_anchor,release_requirement
+P01,Drift thickness,Ga2O3,10,um,literature_start,Chang APL 126 062102 fabrication paragraph,Confirm procured thickness and C-V profile
+P02,Drift donor concentration,Ga2O3,2e16,cm^-3,literature_start,Chang APL 126 062102 fabrication paragraph,Use net donor profile from wafer C-V and verify species separately
+P03,Substrate thickness,Ga2O3,650,um,literature_start,Chang APL 126 062102 fabrication paragraph,Replace with actual wafer thickness and measure resistivity
+P04,p-GaN film thickness,Planar annulus,500,nm,literature_start,Chang APL 126 062102 Fig 1 and fabrication paragraph,Cross-section and wafer map after actual process
+P05,Anode radius,Published replication split,70,um,literature_start,Chang APL 126 062102 Fig 1(b) text,Verify drawn and as-fabricated area separately
+P06,Annulus width and anode overlap,GaN JTE,UNRESOLVED,um,unknown,Fig 1 layout and foundry rules needed,Measure or obtain layout and pass worst-case CD-overlay clearance before mask release
+P07,Net depleted p-type charge,GaN JTE,UNRESOLVED,cm^-2,unknown,Needs same-process heterodiode C-V and witness compensation analysis,Bracket charge if fit not identifiable; do not substitute SIMS Mg or Hall p
+P08,Reference electron prefactor,Named Ga2O3 Schottky NLM,1.56e-8,dimensionless,user_intent_and_historical_log,REDESIGN_V2_RUN_EVIDENCE.csv,Keep fixed for matched first pair and validate portability on bare leakage before prediction
+P09,Schottky barrier and tunneling mass,Metal/Ga2O3 electron,UNRESOLVED,eV and m0,historical_fit_not_transferred,Bare contact I-V-T and C-V needed,Do not tune barrier or prefactor per architecture; check parameter covariance and holdout
+P10,GaN tunneling prefactor and hole parameters,Both interfaces,UNRESOLVED,model-specific,unknown,No calibrated values established,No guessed channel in nominal baseline; test sensitivity only if mechanism is supported
+P11,Effective PF emission barrier,Published JTE device,0.74,eV,literature_fit_only,Chang APL 126 062102 Fig 4 fit from -1 to -20 V,Do not treat as GaN bulk trap level or extrapolate to kV; locate leakage with control structures
+P12,Contact resistivity and sidewall traps,p-GaN contacts and interfaces,UNRESOLVED,model-specific,unknown,TLM and perimeter/area I-V-T and C-V required,Use measured values or explicit sensitivity bounds
+P13,Dielectric stress limit,Optional field plate,UNRESOLVED,MV/cm,unknown,Roy arXiv 2408.11342 is process-specific not transferable,Qualify own dielectric stack and patterned edge under applicable temperature and time
+P14,Width and gap,Raised p-GaN islands,3 / 2,um,previous_simulation_seed_only,Process_Constrained_Followup/candidates/raised_mesa/build_candidate.scm,Check minimum printed gap and contact enclosure and do not market as measured tolerance
+P15,Impact ionization coefficients,Ga2O3 and p-GaN,UNRESOLVED,model-specific,historical_inputs_not_validated_for_redesign,Legacy run logs plus material/axis sources needed,Use on/off and region carrier multiplication controls before any avalanche attribution

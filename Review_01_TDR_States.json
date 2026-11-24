@@ -1,0 +1,5254 @@
+{
+ "Bare/tdr/rev_298K_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_rim": -929.5927881121651,
+   "anode": -929.5927881121651
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_ambient": "Oxide",
+   "region_sub": "Ga2O3",
+   "cathode": null,
+   "anode_rim": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "DonorPlusConcentration": [
+     17474,
+     1.9999999999982624e+16
+    ],
+    "DonorConcentration": [
+     17474,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     17474,
+     1.9999999999982624e+16
+    ],
+    "ElectricField": [
+     34948,
+     -268798.37279247615
+    ],
+    "ConductionBandEnergy": [
+     17474,
+     475.0468228582105
+    ],
+    "ValenceBandEnergy": [
+     17474,
+     470.246827395754
+    ]
+   },
+   "region_sub": {
+    "DonorPlusConcentration": [
+     1139,
+     1.8325266451765056e+18
+    ],
+    "DonorConcentration": [
+     1139,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     1139,
+     1.8325266451765056e+18
+    ],
+    "ElectricField": [
+     2278,
+     -0.05865761531663026
+    ],
+    "ConductionBandEnergy": [
+     1139,
+     0.09662197791965968
+    ],
+    "ValenceBandEnergy": [
+     1139,
+     -4.702562277724611
+    ]
+   }
+  },
+  "n": 19652,
+  "sha": "942946b07ab8e27e33c9590581a86e9c996388f28d9127a8148d9af45c8fef86"
+ },
+ "NLM_g156e8_Full_Batch_20261122/03_Planar_WF5p10/rev_03_Planar_WF5p10_final_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": -2422.4526984694676,
+   "anode_fp": -2422.4526984694676,
+   "anode": -2422.4526984694676
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.999999999999974e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.999999999999974e+16
+    ],
+    "ElectricField": [
+     6288,
+     -921020.7766773205
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     1991.8437732827097
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     1987.0437778202531
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     220,
+     1.5999999990135828e+18
+    ],
+    "AcceptorConcentration": [
+     220,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     220,
+     0.0
+    ],
+    "DonorConcentration": [
+     220,
+     0.0
+    ],
+    "DopingConcentration": [
+     220,
+     -1.5999999990135828e+18
+    ],
+    "ElectricField": [
+     440,
+     -1131465.5305457069
+    ],
+    "ConductionBandEnergy": [
+     220,
+     2024.1961515283185
+    ],
+    "ValenceBandEnergy": [
+     220,
+     2020.7588085231564
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     75,
+     2.6873412627769503e+18
+    ],
+    "AcceptorConcentration": [
+     75,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     75,
+     0.0
+    ],
+    "DonorConcentration": [
+     75,
+     0.0
+    ],
+    "DopingConcentration": [
+     75,
+     -2.6873412627769503e+18
+    ],
+    "ElectricField": [
+     150,
+     -126580.95918875326
+    ],
+    "ConductionBandEnergy": [
+     75,
+     2402.082537703072
+    ],
+    "ValenceBandEnergy": [
+     75,
+     2398.645432297611
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "ElectricField": [
+     1132,
+     -0.07977092922715404
+    ],
+    "ConductionBandEnergy": [
+     566,
+     10.350857814319003
+    ],
+    "ValenceBandEnergy": [
+     566,
+     5.5516735586747314
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     206,
+     5.0843144044168346e+17
+    ],
+    "AcceptorConcentration": [
+     206,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     206,
+     0.0
+    ],
+    "DonorConcentration": [
+     206,
+     0.0
+    ],
+    "DopingConcentration": [
+     206,
+     -5.0843144044168346e+17
+    ],
+    "ElectricField": [
+     412,
+     -11.0580150402824
+    ],
+    "ConductionBandEnergy": [
+     206,
+     2425.670539772709
+    ],
+    "ValenceBandEnergy": [
+     206,
+     2422.233869519041
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "b972647be9fdc50278158a95cdaa7d7c3f8092fec758db537f6be0a9b95cb3c9"
+ },
+ "NLM_g156e8_Full_Batch_20261122/07_Mesa_WF5p10/rev_07_Mesa_WF5p10_final_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": -2423.4070845348,
+   "anode_fp": -2423.4070845348,
+   "anode": -2423.4070845348
+  },
+  "regions": {
+   "region_spR_1": "AluminumOxide",
+   "region_pgan_mesa_3": "GaN",
+   "region_spL_7": "AluminumOxide",
+   "region_spR_9": "AluminumOxide",
+   "region_spL_0": "AluminumOxide",
+   "region_spR_2": "AluminumOxide",
+   "region_pgan_mesa_4": "GaN",
+   "region_spL_8": "AluminumOxide",
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_spL_1": "AluminumOxide",
+   "region_spR_3": "AluminumOxide",
+   "region_pgan_mesa_5": "GaN",
+   "region_spL_9": "AluminumOxide",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_spL_2": "AluminumOxide",
+   "region_spR_4": "AluminumOxide",
+   "region_pgan_mesa_6": "GaN",
+   "region_spL_3": "AluminumOxide",
+   "region_spR_5": "AluminumOxide",
+   "region_pgan_mesa_7": "GaN",
+   "region_passivation": "AluminumOxide",
+   "region_pgan_mesa_0": "GaN",
+   "region_spL_4": "AluminumOxide",
+   "region_spR_6": "AluminumOxide",
+   "region_pgan_mesa_8": "GaN",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "region_pgan_mesa_1": "GaN",
+   "region_spL_5": "AluminumOxide",
+   "region_spR_7": "AluminumOxide",
+   "region_pgan_mesa_9": "GaN",
+   "region_spR_0": "AluminumOxide",
+   "region_pgan_mesa_2": "GaN",
+   "region_spL_6": "AluminumOxide",
+   "region_spR_8": "AluminumOxide",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     6021,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     6021,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     6021,
+     1.9999999999999052e+16
+    ],
+    "DonorConcentration": [
+     6021,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     6021,
+     1.9999999999999052e+16
+    ],
+    "ElectricField": [
+     12042,
+     -968076.3042274279
+    ],
+    "ConductionBandEnergy": [
+     6021,
+     2264.472018772581
+    ],
+    "ValenceBandEnergy": [
+     6021,
+     2259.6720233101246
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     220,
+     1.599999999013671e+18
+    ],
+    "AcceptorConcentration": [
+     220,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     220,
+     0.0
+    ],
+    "DonorConcentration": [
+     220,
+     0.0
+    ],
+    "DopingConcentration": [
+     220,
+     -1.599999999013671e+18
+    ],
+    "ElectricField": [
+     440,
+     -1132111.9828920055
+    ],
+    "ConductionBandEnergy": [
+     220,
+     2024.5581952857033
+    ],
+    "ValenceBandEnergy": [
+     220,
+     2021.120852280541
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     75,
+     2.6853164257725455e+18
+    ],
+    "AcceptorConcentration": [
+     75,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     75,
+     0.0
+    ],
+    "DonorConcentration": [
+     75,
+     0.0
+    ],
+    "DopingConcentration": [
+     75,
+     -2.6853164257725455e+18
+    ],
+    "ElectricField": [
+     150,
+     -127665.95073842024
+    ],
+    "ConductionBandEnergy": [
+     75,
+     2402.6532704338188
+    ],
+    "ValenceBandEnergy": [
+     75,
+     2399.216165028358
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     658,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     658,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     658,
+     1.8325266451764736e+18
+    ],
+    "DonorConcentration": [
+     658,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     658,
+     1.8325266451764736e+18
+    ],
+    "ElectricField": [
+     1316,
+     -0.04768071525963504
+    ],
+    "ConductionBandEnergy": [
+     658,
+     10.58714299221691
+    ],
+    "ValenceBandEnergy": [
+     658,
+     5.787958736572639
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     206,
+     5.0967155662018086e+17
+    ],
+    "AcceptorConcentration": [
+     206,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     206,
+     0.0
+    ],
+    "DonorConcentration": [
+     206,
+     0.0
+    ],
+    "DopingConcentration": [
+     206,
+     -5.0967155662018086e+17
+    ],
+    "ElectricField": [
+     412,
+     -11.297334940692977
+    ],
+    "ConductionBandEnergy": [
+     206,
+     2426.6246118723893
+    ],
+    "ValenceBandEnergy": [
+     206,
+     2423.1879416187217
+    ]
+   }
+  },
+  "n": 9778,
+  "sha": "007785aaf3a4cf4247a26d65b9c3d9c482223379c4fcdc38d67ee6ba1abacbbb"
+ },
+ "NLM_g156e8_Full_Batch_20261122/10_Thin080nm_WF5p10/rev_10_Thin080nm_WF5p10.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": -2376.100520518178,
+   "anode_fp": -2376.100520518178,
+   "anode": -2376.100520518178
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.9999999999999656e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.9999999999999656e+16
+    ],
+    "ElectricField": [
+     6288,
+     -753173.0465385126
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     1613.5621433447736
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     1608.7621478823173
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     177,
+     1.5999999979077914e+18
+    ],
+    "AcceptorConcentration": [
+     177,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     177,
+     0.0
+    ],
+    "DonorConcentration": [
+     177,
+     0.0
+    ],
+    "DopingConcentration": [
+     177,
+     -1.5999999979077914e+18
+    ],
+    "ElectricField": [
+     354,
+     -1115035.5073083122
+    ],
+    "ConductionBandEnergy": [
+     177,
+     954.8550846100433
+    ],
+    "ValenceBandEnergy": [
+     177,
+     951.417741604881
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     60,
+     2.7999961048591206e+18
+    ],
+    "AcceptorConcentration": [
+     60,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     60,
+     0.0
+    ],
+    "DonorConcentration": [
+     60,
+     0.0
+    ],
+    "DopingConcentration": [
+     60,
+     -2.7999961048591206e+18
+    ],
+    "ElectricField": [
+     120,
+     -1089424.8818523502
+    ],
+    "ConductionBandEnergy": [
+     60,
+     2156.409370244886
+    ],
+    "ValenceBandEnergy": [
+     60,
+     2152.972264839425
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "ElectricField": [
+     1132,
+     -0.06329235201845249
+    ],
+    "ConductionBandEnergy": [
+     566,
+     10.232569195219178
+    ],
+    "ValenceBandEnergy": [
+     566,
+     5.433384939574907
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     151,
+     4.999999996838218e+18
+    ],
+    "AcceptorConcentration": [
+     151,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     151,
+     0.0
+    ],
+    "DonorConcentration": [
+     151,
+     0.0
+    ],
+    "DopingConcentration": [
+     151,
+     -4.999999996838218e+18
+    ],
+    "ElectricField": [
+     302,
+     -9998.378001835725
+    ],
+    "ConductionBandEnergy": [
+     151,
+     2377.2629585933873
+    ],
+    "ValenceBandEnergy": [
+     151,
+     2373.8262883397197
+    ]
+   }
+  },
+  "n": 5217,
+  "sha": "9bf41b8192cfc55aa7654cdf2c064dd7ae2f9278ccdfba3ca5a845f6b31b2fa7"
+ },
+ "NLM_g156e8_Full_Batch_20261122/10_Thin080nm_WF5p10/rev_10_Thin080nm_WF5p10_final_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": -2376.100520518178,
+   "anode_fp": -2376.100520518178,
+   "anode": -2376.100520518178
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.9999999999999656e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.9999999999999656e+16
+    ],
+    "ElectricField": [
+     6288,
+     -753173.0465385126
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     1613.5621433447736
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     1608.7621478823173
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     177,
+     1.5999999979077914e+18
+    ],
+    "AcceptorConcentration": [
+     177,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     177,
+     0.0
+    ],
+    "DonorConcentration": [
+     177,
+     0.0
+    ],
+    "DopingConcentration": [
+     177,
+     -1.5999999979077914e+18
+    ],
+    "ElectricField": [
+     354,
+     -1115035.5073083122
+    ],
+    "ConductionBandEnergy": [
+     177,
+     954.8550846100433
+    ],
+    "ValenceBandEnergy": [
+     177,
+     951.417741604881
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     60,
+     2.7999961048591206e+18
+    ],
+    "AcceptorConcentration": [
+     60,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     60,
+     0.0
+    ],
+    "DonorConcentration": [
+     60,
+     0.0
+    ],
+    "DopingConcentration": [
+     60,
+     -2.7999961048591206e+18
+    ],
+    "ElectricField": [
+     120,
+     -1089424.8818523502
+    ],
+    "ConductionBandEnergy": [
+     60,
+     2156.409370244886
+    ],
+    "ValenceBandEnergy": [
+     60,
+     2152.972264839425
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "ElectricField": [
+     1132,
+     -0.06329235201845249
+    ],
+    "ConductionBandEnergy": [
+     566,
+     10.232569195219178
+    ],
+    "ValenceBandEnergy": [
+     566,
+     5.433384939574907
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     151,
+     4.999999996838218e+18
+    ],
+    "AcceptorConcentration": [
+     151,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     151,
+     0.0
+    ],
+    "DonorConcentration": [
+     151,
+     0.0
+    ],
+    "DopingConcentration": [
+     151,
+     -4.999999996838218e+18
+    ],
+    "ElectricField": [
+     302,
+     -9998.378001835725
+    ],
+    "ConductionBandEnergy": [
+     151,
+     2377.2629585933873
+    ],
+    "ValenceBandEnergy": [
+     151,
+     2373.8262883397197
+    ]
+   }
+  },
+  "n": 5217,
+  "sha": "9df0c2447464f349d33d3cbb21206197537ac6d0efa6280a0cae711097c4118a"
+ },
+ "NLM_g156e8_Full_Batch_20261122/11_Thin080nm_WF4p75/rev_11_Thin080nm_WF4p75.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": -2376.133832013184,
+   "anode_fp": -2376.133832013184,
+   "anode": -2376.133832013184
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.9999999999245456e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.9999999999245456e+16
+    ],
+    "ElectricField": [
+     6288,
+     -753169.5408862764
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     1613.5851955054793
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     1608.785200043023
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     177,
+     1.5999999979026537e+18
+    ],
+    "AcceptorConcentration": [
+     177,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     177,
+     0.0
+    ],
+    "DonorConcentration": [
+     177,
+     0.0
+    ],
+    "DopingConcentration": [
+     177,
+     -1.5999999979026537e+18
+    ],
+    "ElectricField": [
+     354,
+     -1115044.4948322496
+    ],
+    "ConductionBandEnergy": [
+     177,
+     954.8810521725876
+    ],
+    "ValenceBandEnergy": [
+     177,
+     951.4437091674253
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     60,
+     2.7999960937074145e+18
+    ],
+    "AcceptorConcentration": [
+     60,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     60,
+     0.0
+    ],
+    "DonorConcentration": [
+     60,
+     0.0
+    ],
+    "DopingConcentration": [
+     60,
+     -2.7999960937074145e+18
+    ],
+    "ElectricField": [
+     120,
+     -1089413.4823674383
+    ],
+    "ConductionBandEnergy": [
+     60,
+     2156.4329113085605
+    ],
+    "ValenceBandEnergy": [
+     60,
+     2152.9958059030996
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "ElectricField": [
+     1132,
+     -0.06345533785165515
+    ],
+    "ConductionBandEnergy": [
+     566,
+     10.258880517909372
+    ],
+    "ValenceBandEnergy": [
+     566,
+     5.4596962622650995
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     151,
+     4.999999783583308e+18
+    ],
+    "AcceptorConcentration": [
+     151,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     151,
+     0.0
+    ],
+    "DonorConcentration": [
+     151,
+     0.0
+    ],
+    "DopingConcentration": [
+     151,
+     -4.999999783583308e+18
+    ],
+    "ElectricField": [
+     302,
+     -9882.897398498884
+    ],
+    "ConductionBandEnergy": [
+     151,
+     2377.282246243631
+    ],
+    "ValenceBandEnergy": [
+     151,
+     2373.8455759899634
+    ]
+   }
+  },
+  "n": 5217,
+  "sha": "5b2c11cdab72feb8a0299ed5864811632a1ae16c0e9a6f6f0786fe5a11434f89"
+ },
+ "NLM_g156e8_Full_Batch_20261122/11_Thin080nm_WF4p75/rev_11_Thin080nm_WF4p75_final_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": -2376.133832013184,
+   "anode_fp": -2376.133832013184,
+   "anode": -2376.133832013184
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.9999999999245456e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.9999999999245456e+16
+    ],
+    "ElectricField": [
+     6288,
+     -753169.5408862764
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     1613.5851955054793
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     1608.785200043023
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     177,
+     1.5999999979026537e+18
+    ],
+    "AcceptorConcentration": [
+     177,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     177,
+     0.0
+    ],
+    "DonorConcentration": [
+     177,
+     0.0
+    ],
+    "DopingConcentration": [
+     177,
+     -1.5999999979026537e+18
+    ],
+    "ElectricField": [
+     354,
+     -1115044.4948322496
+    ],
+    "ConductionBandEnergy": [
+     177,
+     954.8810521725876
+    ],
+    "ValenceBandEnergy": [
+     177,
+     951.4437091674253
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     60,
+     2.7999960937074145e+18
+    ],
+    "AcceptorConcentration": [
+     60,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     60,
+     0.0
+    ],
+    "DonorConcentration": [
+     60,
+     0.0
+    ],
+    "DopingConcentration": [
+     60,
+     -2.7999960937074145e+18
+    ],
+    "ElectricField": [
+     120,
+     -1089413.4823674383
+    ],
+    "ConductionBandEnergy": [
+     60,
+     2156.4329113085605
+    ],
+    "ValenceBandEnergy": [
+     60,
+     2152.9958059030996
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "ElectricField": [
+     1132,
+     -0.06345533785165515
+    ],
+    "ConductionBandEnergy": [
+     566,
+     10.258880517909372
+    ],
+    "ValenceBandEnergy": [
+     566,
+     5.4596962622650995
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     151,
+     4.999999783583308e+18
+    ],
+    "AcceptorConcentration": [
+     151,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     151,
+     0.0
+    ],
+    "DonorConcentration": [
+     151,
+     0.0
+    ],
+    "DopingConcentration": [
+     151,
+     -4.999999783583308e+18
+    ],
+    "ElectricField": [
+     302,
+     -9882.897398498884
+    ],
+    "ConductionBandEnergy": [
+     151,
+     2377.282246243631
+    ],
+    "ValenceBandEnergy": [
+     151,
+     2373.8455759899634
+    ]
+   }
+  },
+  "n": 5217,
+  "sha": "141c314c1a62155fcb2963f8536947218183e1446f0d04c6c5f8e8a4ad8d1266"
+ },
+ "NLM_g156e8_Full_Batch_20261122/meshes/mesa_150nm_sn_msh.tdr": {
+  "v": {},
+  "regions": {
+   "region_spR_1": "AluminumOxide",
+   "region_pgan_mesa_3": "GaN",
+   "region_spL_7": "AluminumOxide",
+   "region_spR_9": "AluminumOxide",
+   "region_spL_0": "AluminumOxide",
+   "region_spR_2": "AluminumOxide",
+   "region_pgan_mesa_4": "GaN",
+   "region_spL_8": "AluminumOxide",
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_spL_1": "AluminumOxide",
+   "region_spR_3": "AluminumOxide",
+   "region_pgan_mesa_5": "GaN",
+   "region_spL_9": "AluminumOxide",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_spL_2": "AluminumOxide",
+   "region_spR_4": "AluminumOxide",
+   "region_pgan_mesa_6": "GaN",
+   "region_spL_3": "AluminumOxide",
+   "region_spR_5": "AluminumOxide",
+   "region_pgan_mesa_7": "GaN",
+   "region_passivation": "AluminumOxide",
+   "region_pgan_mesa_0": "GaN",
+   "region_spL_4": "AluminumOxide",
+   "region_spR_6": "AluminumOxide",
+   "region_pgan_mesa_8": "GaN",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "region_pgan_mesa_1": "GaN",
+   "region_spL_5": "AluminumOxide",
+   "region_spR_7": "AluminumOxide",
+   "region_pgan_mesa_9": "GaN",
+   "region_spR_0": "AluminumOxide",
+   "region_pgan_mesa_2": "GaN",
+   "region_spL_6": "AluminumOxide",
+   "region_spR_8": "AluminumOxide",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "DopingConcentration": [
+     6021,
+     2e+16
+    ]
+   },
+   "region_pgan": {
+    "DopingConcentration": [
+     220,
+     -1.600000000000005e+18
+    ]
+   },
+   "region_pgan_mid": {
+    "DopingConcentration": [
+     75,
+     -2.800000000000004e+18
+    ]
+   },
+   "region_sub": {
+    "DopingConcentration": [
+     658,
+     3.6000000000000067e+18
+    ]
+   },
+   "region_pgan_collar": {
+    "DopingConcentration": [
+     206,
+     -5.000000000000016e+18
+    ]
+   }
+  },
+  "n": 9778,
+  "sha": "63c530a899c3acff692d4fb2ea9642bde89e20b924fcee77608c61324b6e75be"
+ },
+ "NLM_g156e8_Full_Batch_20261122/meshes/planar_150nm_sn_msh.tdr": {
+  "v": {},
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "DopingConcentration": [
+     3144,
+     2e+16
+    ]
+   },
+   "region_pgan": {
+    "DopingConcentration": [
+     220,
+     -1.600000000000005e+18
+    ]
+   },
+   "region_pgan_mid": {
+    "DopingConcentration": [
+     75,
+     -2.800000000000004e+18
+    ]
+   },
+   "region_sub": {
+    "DopingConcentration": [
+     566,
+     3.6000000000000067e+18
+    ]
+   },
+   "region_pgan_collar": {
+    "DopingConcentration": [
+     206,
+     -5.000000000000016e+18
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "b5bc26b604e4fff9bf2036d13476cff7f201e43cf2d6c884b6dd92713389d3f6"
+ },
+ "NLM_g156e8_Full_Batch_20261122/meshes/trench_150nm_sn_msh.tdr": {
+  "v": {},
+  "regions": {
+   "region_spR_9": "AluminumOxide",
+   "region_spL_7": "AluminumOxide",
+   "region_pgan_trench_5": "GaN",
+   "region_spR_1": "AluminumOxide",
+   "region_spL_8": "AluminumOxide",
+   "region_pgan_trench_6": "GaN",
+   "region_spR_2": "AluminumOxide",
+   "region_spL_0": "AluminumOxide",
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_spL_9": "AluminumOxide",
+   "region_pgan_trench_7": "GaN",
+   "region_spR_3": "AluminumOxide",
+   "region_spL_1": "AluminumOxide",
+   "region_pgan_mid": "GaN",
+   "region_pgan_trench_8": "GaN",
+   "region_spR_4": "AluminumOxide",
+   "region_spL_2": "AluminumOxide",
+   "region_pgan_trench_0": "GaN",
+   "region_ambient": "Oxide",
+   "region_pgan_trench_9": "GaN",
+   "region_spR_5": "AluminumOxide",
+   "region_spL_3": "AluminumOxide",
+   "region_pgan_trench_1": "GaN",
+   "region_passivation": "AluminumOxide",
+   "region_spR_6": "AluminumOxide",
+   "region_spL_4": "AluminumOxide",
+   "region_pgan_trench_2": "GaN",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "region_spR_7": "AluminumOxide",
+   "region_spL_5": "AluminumOxide",
+   "region_pgan_trench_3": "GaN",
+   "region_spR_8": "AluminumOxide",
+   "region_spL_6": "AluminumOxide",
+   "region_pgan_trench_4": "GaN",
+   "region_spR_0": "AluminumOxide",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "DopingConcentration": [
+     8729,
+     2e+16
+    ]
+   },
+   "region_pgan": {
+    "DopingConcentration": [
+     220,
+     -1.600000000000005e+18
+    ]
+   },
+   "region_pgan_mid": {
+    "DopingConcentration": [
+     75,
+     -2.800000000000004e+18
+    ]
+   },
+   "region_sub": {
+    "DopingConcentration": [
+     658,
+     3.6000000000000067e+18
+    ]
+   },
+   "region_pgan_collar": {
+    "DopingConcentration": [
+     206,
+     -5.000000000000016e+18
+    ]
+   }
+  },
+  "n": 13723,
+  "sha": "5aeb1272af4691f7535a6c05591cc5ff7db17d63015909530d593fe01f3d7062"
+ },
+ "barrier_height/01_Planar_WF5p50/rev_V0000_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": 0.0,
+   "anode_fp": 0.0,
+   "anode": 0.0
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.996637799531073e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.996637799531073e+16
+    ],
+    "ElectricField": [
+     6288,
+     -0.00021848265606339592
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     0.2178981743005843
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     -4.5820972881559
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     220,
+     1.1040240558100509e+17
+    ],
+    "AcceptorConcentration": [
+     220,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     220,
+     0.0
+    ],
+    "DonorConcentration": [
+     220,
+     0.0
+    ],
+    "DopingConcentration": [
+     220,
+     -1.1040240558100509e+17
+    ],
+    "ElectricField": [
+     440,
+     -0.20553690872635785
+    ],
+    "ConductionBandEnergy": [
+     220,
+     3.277937793459741
+    ],
+    "ValenceBandEnergy": [
+     220,
+     -0.159405211702502
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     75,
+     1.4720921555722102e+17
+    ],
+    "AcceptorConcentration": [
+     75,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     75,
+     0.0
+    ],
+    "DonorConcentration": [
+     75,
+     0.0
+    ],
+    "DopingConcentration": [
+     75,
+     -1.4720921555722102e+17
+    ],
+    "ElectricField": [
+     150,
+     -0.41066361708384
+    ],
+    "ConductionBandEnergy": [
+     75,
+     3.2870540172268736
+    ],
+    "ValenceBandEnergy": [
+     75,
+     -0.15005138823409003
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "ElectricField": [
+     1132,
+     -6.633941131737493e-12
+    ],
+    "ConductionBandEnergy": [
+     566,
+     0.07873738523143889
+    ],
+    "ValenceBandEnergy": [
+     566,
+     -4.7204468704128315
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     206,
+     2.0040938328392605e+17
+    ],
+    "AcceptorConcentration": [
+     206,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     206,
+     0.0
+    ],
+    "DonorConcentration": [
+     206,
+     0.0
+    ],
+    "DopingConcentration": [
+     206,
+     -2.0040938328392605e+17
+    ],
+    "ElectricField": [
+     412,
+     0.3636277420838177
+    ],
+    "ConductionBandEnergy": [
+     206,
+     3.2963302476688536
+    ],
+    "ValenceBandEnergy": [
+     206,
+     -0.14034000599895963
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "42046f5c1c8974097b17052b91af6925f1a47abf5c00dddf7aa9efdb4a9f2d55"
+ },
+ "barrier_height/04_Trench_WF5p10/rev_final_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": -1257.7111431505136,
+   "anode_fp": -1257.7111431505136,
+   "anode": -1257.7111431505136
+  },
+  "regions": {
+   "region_spR_9": "AluminumOxide",
+   "region_spL_7": "AluminumOxide",
+   "region_pgan_trench_5": "GaN",
+   "region_spR_1": "AluminumOxide",
+   "region_spL_8": "AluminumOxide",
+   "region_pgan_trench_6": "GaN",
+   "region_spR_2": "AluminumOxide",
+   "region_spL_0": "AluminumOxide",
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_spL_9": "AluminumOxide",
+   "region_pgan_trench_7": "GaN",
+   "region_spR_3": "AluminumOxide",
+   "region_spL_1": "AluminumOxide",
+   "region_pgan_mid": "GaN",
+   "region_pgan_trench_8": "GaN",
+   "region_spR_4": "AluminumOxide",
+   "region_spL_2": "AluminumOxide",
+   "region_pgan_trench_0": "GaN",
+   "region_ambient": "Oxide",
+   "region_pgan_trench_9": "GaN",
+   "region_spR_5": "AluminumOxide",
+   "region_spL_3": "AluminumOxide",
+   "region_pgan_trench_1": "GaN",
+   "region_passivation": "AluminumOxide",
+   "region_spR_6": "AluminumOxide",
+   "region_spL_4": "AluminumOxide",
+   "region_pgan_trench_2": "GaN",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "region_spR_7": "AluminumOxide",
+   "region_spL_5": "AluminumOxide",
+   "region_pgan_trench_3": "GaN",
+   "region_spR_8": "AluminumOxide",
+   "region_spL_6": "AluminumOxide",
+   "region_pgan_trench_4": "GaN",
+   "region_spR_0": "AluminumOxide",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     8729,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     8729,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     8729,
+     1.9999999999999964e+16
+    ],
+    "DonorConcentration": [
+     8729,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     8729,
+     1.9999999999999964e+16
+    ],
+    "ElectricField": [
+     17458,
+     -642353.1989758927
+    ],
+    "ConductionBandEnergy": [
+     8729,
+     1168.871607730969
+    ],
+    "ValenceBandEnergy": [
+     8729,
+     1164.0716122685124
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     220,
+     1.5999999999995802e+18
+    ],
+    "AcceptorConcentration": [
+     220,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     220,
+     0.0
+    ],
+    "DonorConcentration": [
+     220,
+     0.0
+    ],
+    "DopingConcentration": [
+     220,
+     -1.5999999999995802e+18
+    ],
+    "ElectricField": [
+     440,
+     -367840.5172375336
+    ],
+    "ConductionBandEnergy": [
+     220,
+     1250.140702921116
+    ],
+    "ValenceBandEnergy": [
+     220,
+     1246.7033599159536
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     75,
+     8.782580489505836e+17
+    ],
+    "AcceptorConcentration": [
+     75,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     75,
+     0.0
+    ],
+    "DonorConcentration": [
+     75,
+     0.0
+    ],
+    "DopingConcentration": [
+     75,
+     -8.782580489505836e+17
+    ],
+    "ElectricField": [
+     150,
+     -2992.7993308992995
+    ],
+    "ConductionBandEnergy": [
+     75,
+     1260.9440252468696
+    ],
+    "ValenceBandEnergy": [
+     75,
+     1257.5069198414087
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     658,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     658,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     658,
+     2.401388179222238e+18
+    ],
+    "DonorConcentration": [
+     658,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     658,
+     2.401388179222238e+18
+    ],
+    "ElectricField": [
+     1316,
+     -0.08027502727725386
+    ],
+    "ConductionBandEnergy": [
+     658,
+     10.151928268792997
+    ],
+    "ValenceBandEnergy": [
+     658,
+     5.352744013148724
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     206,
+     2.480948856651993e+17
+    ],
+    "AcceptorConcentration": [
+     206,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     206,
+     0.0
+    ],
+    "DonorConcentration": [
+     206,
+     0.0
+    ],
+    "DopingConcentration": [
+     206,
+     -2.480948856651993e+17
+    ],
+    "ElectricField": [
+     412,
+     -0.9848272090171484
+    ],
+    "ConductionBandEnergy": [
+     206,
+     1261.001732803163
+    ],
+    "ValenceBandEnergy": [
+     206,
+     1257.565062549495
+    ]
+   }
+  },
+  "n": 13723,
+  "sha": "6bb77d4071c62d3495495bd25334352c085061449681741afbdaec02eab369c9"
+ },
+ "pGaN_thickness_doping/01_Planar_JTE_FP_1p00x_0V/planar_150nm_sn_msh.tdr": {
+  "v": {},
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "DopingConcentration": [
+     3144,
+     2e+16
+    ]
+   },
+   "region_pgan": {
+    "DopingConcentration": [
+     220,
+     -1.600000000000005e+18
+    ]
+   },
+   "region_pgan_mid": {
+    "DopingConcentration": [
+     75,
+     -2.800000000000004e+18
+    ]
+   },
+   "region_sub": {
+    "DopingConcentration": [
+     566,
+     3.6000000000000067e+18
+    ]
+   },
+   "region_pgan_collar": {
+    "DopingConcentration": [
+     206,
+     -5.000000000000016e+18
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "b5bc26b604e4fff9bf2036d13476cff7f201e43cf2d6c884b6dd92713389d3f6"
+ },
+ "pGaN_thickness_doping/01_Planar_JTE_FP_1p00x_0V/rev.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": -2423.249729842233,
+   "anode_fp": -2423.249729842233,
+   "anode": -2423.249729842233
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.999999999999974e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.999999999999974e+16
+    ],
+    "ElectricField": [
+     6288,
+     -921024.1529674891
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     1992.2039473859681
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     1987.4039519235116
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     220,
+     1.5999999990136617e+18
+    ],
+    "AcceptorConcentration": [
+     220,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     220,
+     0.0
+    ],
+    "DonorConcentration": [
+     220,
+     0.0
+    ],
+    "DopingConcentration": [
+     220,
+     -1.5999999990136617e+18
+    ],
+    "ElectricField": [
+     440,
+     -1131998.7285499834
+    ],
+    "ConductionBandEnergy": [
+     220,
+     2024.497385800415
+    ],
+    "ValenceBandEnergy": [
+     220,
+     2021.0600427952527
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     75,
+     2.6857081336814085e+18
+    ],
+    "AcceptorConcentration": [
+     75,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     75,
+     0.0
+    ],
+    "DonorConcentration": [
+     75,
+     0.0
+    ],
+    "DopingConcentration": [
+     75,
+     -2.6857081336814085e+18
+    ],
+    "ElectricField": [
+     150,
+     -127455.97043179261
+    ],
+    "ConductionBandEnergy": [
+     75,
+     2402.5712822401238
+    ],
+    "ValenceBandEnergy": [
+     75,
+     2399.134176834663
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "ElectricField": [
+     1132,
+     -0.08125934811995464
+    ],
+    "ConductionBandEnergy": [
+     566,
+     10.541456265751034
+    ],
+    "ValenceBandEnergy": [
+     566,
+     5.742272010106762
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     206,
+     5.089614670129864e+17
+    ],
+    "AcceptorConcentration": [
+     206,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     206,
+     0.0
+    ],
+    "DonorConcentration": [
+     206,
+     0.0
+    ],
+    "DopingConcentration": [
+     206,
+     -5.089614670129864e+17
+    ],
+    "ElectricField": [
+     412,
+     -11.25043538784567
+    ],
+    "ConductionBandEnergy": [
+     206,
+     2426.467527826117
+    ],
+    "ValenceBandEnergy": [
+     206,
+     2423.0308575724493
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "d431759e89b85a59cb394e69dc19a5d6e4128647e40ec8c7af5b97aec112418a"
+ },
+ "pGaN_thickness_doping/01_Planar_JTE_FP_1p00x_0V/rev_V0000_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": 0.0,
+   "anode_fp": 0.0,
+   "anode": 0.0
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.994958695993777e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.994958695993777e+16
+    ],
+    "ElectricField": [
+     6288,
+     -0.0002405181579695275
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     0.2074688573447105
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     -4.5925266051117735
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     220,
+     1.1040240558104653e+17
+    ],
+    "AcceptorConcentration": [
+     220,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     220,
+     0.0
+    ],
+    "DonorConcentration": [
+     220,
+     0.0
+    ],
+    "DopingConcentration": [
+     220,
+     -1.1040240558104653e+17
+    ],
+    "ElectricField": [
+     440,
+     -0.20553690873013736
+    ],
+    "ConductionBandEnergy": [
+     220,
+     3.277937793459731
+    ],
+    "ValenceBandEnergy": [
+     220,
+     -0.15940521170251232
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     75,
+     1.472092155572535e+17
+    ],
+    "AcceptorConcentration": [
+     75,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     75,
+     0.0
+    ],
+    "DonorConcentration": [
+     75,
+     0.0
+    ],
+    "DopingConcentration": [
+     75,
+     -1.472092155572535e+17
+    ],
+    "ElectricField": [
+     150,
+     -0.41066361708385923
+    ],
+    "ConductionBandEnergy": [
+     75,
+     3.287054017226868
+    ],
+    "ValenceBandEnergy": [
+     75,
+     -0.150051388234096
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "ElectricField": [
+     1132,
+     -6.065471317245359e-12
+    ],
+    "ConductionBandEnergy": [
+     566,
+     0.0787373851961001
+    ],
+    "ValenceBandEnergy": [
+     566,
+     -4.72044687044817
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     206,
+     2.0073655135185037e+17
+    ],
+    "AcceptorConcentration": [
+     206,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     206,
+     0.0
+    ],
+    "DonorConcentration": [
+     206,
+     0.0
+    ],
+    "DopingConcentration": [
+     206,
+     -2.0073655135185037e+17
+    ],
+    "ElectricField": [
+     412,
+     0.4308850150411877
+    ],
+    "ConductionBandEnergy": [
+     206,
+     3.2962865911368864
+    ],
+    "ValenceBandEnergy": [
+     206,
+     -0.14038366253092677
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "948a7dac0a63f8ef9a4c9e2284f7579387c0c012b8eab0ec50b77f57256e7757"
+ },
+ "pGaN_thickness_doping/01_Planar_JTE_FP_1p00x_0V/rev_final_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": -2423.249729842233,
+   "anode_fp": -2423.249729842233,
+   "anode": -2423.249729842233
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.999999999999974e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.999999999999974e+16
+    ],
+    "ElectricField": [
+     6288,
+     -921024.1529674891
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     1992.2039473859681
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     1987.4039519235116
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     220,
+     1.5999999990136617e+18
+    ],
+    "AcceptorConcentration": [
+     220,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     220,
+     0.0
+    ],
+    "DonorConcentration": [
+     220,
+     0.0
+    ],
+    "DopingConcentration": [
+     220,
+     -1.5999999990136617e+18
+    ],
+    "ElectricField": [
+     440,
+     -1131998.7285499834
+    ],
+    "ConductionBandEnergy": [
+     220,
+     2024.497385800415
+    ],
+    "ValenceBandEnergy": [
+     220,
+     2021.0600427952527
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     75,
+     2.6857081336814085e+18
+    ],
+    "AcceptorConcentration": [
+     75,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     75,
+     0.0
+    ],
+    "DonorConcentration": [
+     75,
+     0.0
+    ],
+    "DopingConcentration": [
+     75,
+     -2.6857081336814085e+18
+    ],
+    "ElectricField": [
+     150,
+     -127455.97043179261
+    ],
+    "ConductionBandEnergy": [
+     75,
+     2402.5712822401238
+    ],
+    "ValenceBandEnergy": [
+     75,
+     2399.134176834663
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "ElectricField": [
+     1132,
+     -0.08125934811995464
+    ],
+    "ConductionBandEnergy": [
+     566,
+     10.541456265751034
+    ],
+    "ValenceBandEnergy": [
+     566,
+     5.742272010106762
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     206,
+     5.089614670129864e+17
+    ],
+    "AcceptorConcentration": [
+     206,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     206,
+     0.0
+    ],
+    "DonorConcentration": [
+     206,
+     0.0
+    ],
+    "DopingConcentration": [
+     206,
+     -5.089614670129864e+17
+    ],
+    "ElectricField": [
+     412,
+     -11.25043538784567
+    ],
+    "ConductionBandEnergy": [
+     206,
+     2426.467527826117
+    ],
+    "ValenceBandEnergy": [
+     206,
+     2423.0308575724493
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "b6ef7f3944dbe3d990b500fd2248b664b55694c9529ea66ab45d6f36af0b5b90"
+ },
+ "pGaN_thickness_doping/2A_Planar_Mg_0p25x/2A_V5_dop_0p25x_sn_msh.tdr": {
+  "v": {},
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "DopingConcentration": [
+     3144,
+     2e+16
+    ]
+   },
+   "region_pgan": {
+    "DopingConcentration": [
+     220,
+     -3.999999999999998e+17
+    ]
+   },
+   "region_pgan_mid": {
+    "DopingConcentration": [
+     75,
+     -7.000000000000033e+17
+    ]
+   },
+   "region_sub": {
+    "DopingConcentration": [
+     566,
+     3.6000000000000067e+18
+    ]
+   },
+   "region_pgan_collar": {
+    "DopingConcentration": [
+     206,
+     -1.2499999999999995e+18
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "7d9afe988ea5e8c2a7f06ff04e9b3b07d59dfa574344378747135383ccf2e88b"
+ },
+ "pGaN_thickness_doping/2A_Planar_Mg_0p25x/rev_V0000_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": 0.0,
+   "anode_fp": 0.0,
+   "anode": 0.0
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.9946925170687896e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.9946925170687896e+16
+    ],
+    "ElectricField": [
+     6288,
+     -0.0004876100808084881
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     0.20614514715432797
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     -4.5938503153021575
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     220,
+     5.861662046178746e+16
+    ],
+    "AcceptorConcentration": [
+     220,
+     3.9999999999999904e+17
+    ],
+    "DonorPlusConcentration": [
+     220,
+     0.0
+    ],
+    "DonorConcentration": [
+     220,
+     0.0
+    ],
+    "DopingConcentration": [
+     220,
+     -5.861662046178746e+16
+    ],
+    "ElectricField": [
+     440,
+     -5.617901330211318
+    ],
+    "ConductionBandEnergy": [
+     220,
+     3.253127861549138
+    ],
+    "ValenceBandEnergy": [
+     220,
+     -0.18445291619056264
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     75,
+     7.752168380179866e+16
+    ],
+    "AcceptorConcentration": [
+     75,
+     7.00000000000002e+17
+    ],
+    "DonorPlusConcentration": [
+     75,
+     0.0
+    ],
+    "DonorConcentration": [
+     75,
+     0.0
+    ],
+    "DopingConcentration": [
+     75,
+     -7.752168380179866e+16
+    ],
+    "ElectricField": [
+     150,
+     -1.0182255831690528
+    ],
+    "ConductionBandEnergy": [
+     75,
+     3.262528594131746
+    ],
+    "ValenceBandEnergy": [
+     75,
+     -0.17499272423432724
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "ElectricField": [
+     1132,
+     -4.595994758171623e-12
+    ],
+    "ConductionBandEnergy": [
+     566,
+     0.07166206698628105
+    ],
+    "ValenceBandEnergy": [
+     566,
+     -4.727522188657989
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     206,
+     9.761528328854566e+16
+    ],
+    "AcceptorConcentration": [
+     206,
+     1.249999999999997e+18
+    ],
+    "DonorPlusConcentration": [
+     206,
+     0.0
+    ],
+    "DonorConcentration": [
+     206,
+     0.0
+    ],
+    "DopingConcentration": [
+     206,
+     -9.761528328854566e+16
+    ],
+    "ElectricField": [
+     412,
+     4.001744519432931
+    ],
+    "ConductionBandEnergy": [
+     206,
+     3.273836135620301
+    ],
+    "ValenceBandEnergy": [
+     206,
+     -0.1635762020011805
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "a8a3e5bca27f5d371e85cc64ea1d0680535ad1c65305f3489d609350af484ff1"
+ },
+ "pGaN_thickness_doping/2A_Planar_Mg_0p25x/rev_final_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": -1851.0044652453946,
+   "anode_fp": -1851.0044652453946,
+   "anode": -1851.0044652453946
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.999999999998445e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.999999999998445e+16
+    ],
+    "ElectricField": [
+     6288,
+     -501653.08548948076
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     1073.345236178609
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     1068.5452407161524
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     220,
+     3.99999999980651e+17
+    ],
+    "AcceptorConcentration": [
+     220,
+     3.9999999999999904e+17
+    ],
+    "DonorPlusConcentration": [
+     220,
+     0.0
+    ],
+    "DonorConcentration": [
+     220,
+     0.0
+    ],
+    "DopingConcentration": [
+     220,
+     -3.99999999980651e+17
+    ],
+    "ElectricField": [
+     440,
+     -689274.732519214
+    ],
+    "ConductionBandEnergy": [
+     220,
+     375.4304528331014
+    ],
+    "ValenceBandEnergy": [
+     220,
+     371.99287205536166
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     75,
+     6.999999990121993e+17
+    ],
+    "AcceptorConcentration": [
+     75,
+     7.00000000000002e+17
+    ],
+    "DonorPlusConcentration": [
+     75,
+     0.0
+    ],
+    "DonorConcentration": [
+     75,
+     0.0
+    ],
+    "DopingConcentration": [
+     75,
+     -6.999999990121993e+17
+    ],
+    "ElectricField": [
+     150,
+     -1232812.9452631993
+    ],
+    "ConductionBandEnergy": [
+     75,
+     1500.76937591159
+    ],
+    "ValenceBandEnergy": [
+     75,
+     1497.331854593224
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "ElectricField": [
+     1132,
+     -0.1037108135150024
+    ],
+    "ConductionBandEnergy": [
+     566,
+     10.886302408547198
+    ],
+    "ValenceBandEnergy": [
+     566,
+     6.087118152902928
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     206,
+     1.249999850814165e+18
+    ],
+    "AcceptorConcentration": [
+     206,
+     1.249999999999997e+18
+    ],
+    "DonorPlusConcentration": [
+     206,
+     0.0
+    ],
+    "DonorConcentration": [
+     206,
+     0.0
+    ],
+    "DopingConcentration": [
+     206,
+     -1.249999850814165e+18
+    ],
+    "ElectricField": [
+     412,
+     -608258.4056713074
+    ],
+    "ConductionBandEnergy": [
+     206,
+     1818.7230772992775
+    ],
+    "ValenceBandEnergy": [
+     206,
+     1815.285664961656
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "05b31b426f5ee864eef26c2099bd66ce12de3baf390be09c6e72a7ef2408ff67"
+ },
+ "pGaN_thickness_doping/2A_Planar_Mg_0p50x/rev_V0000_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": 0.0,
+   "anode_fp": 0.0,
+   "anode": 0.0
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.994846099306824e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.994846099306824e+16
+    ],
+    "ElectricField": [
+     6288,
+     -0.0003733550196799808
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     0.20690066152346476
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     -4.59309480093302
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     220,
+     7.946855046600093e+16
+    ],
+    "AcceptorConcentration": [
+     220,
+     7.999999999999996e+17
+    ],
+    "DonorPlusConcentration": [
+     220,
+     0.0
+    ],
+    "DonorConcentration": [
+     220,
+     0.0
+    ],
+    "DopingConcentration": [
+     220,
+     -7.946855046600093e+16
+    ],
+    "ElectricField": [
+     440,
+     -0.6045498762387229
+    ],
+    "ConductionBandEnergy": [
+     220,
+     3.2659534142136355
+    ],
+    "ValenceBandEnergy": [
+     220,
+     -0.17154808676681432
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     75,
+     1.0351553049284362e+17
+    ],
+    "AcceptorConcentration": [
+     75,
+     1.3999999999999967e+18
+    ],
+    "DonorPlusConcentration": [
+     75,
+     0.0
+    ],
+    "DonorConcentration": [
+     75,
+     0.0
+    ],
+    "DopingConcentration": [
+     75,
+     -1.0351553049284362e+17
+    ],
+    "ElectricField": [
+     150,
+     -0.579641253690238
+    ],
+    "ConductionBandEnergy": [
+     75,
+     3.275657525152379
+    ],
+    "ValenceBandEnergy": [
+     75,
+     -0.16172509675656446
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "ElectricField": [
+     1132,
+     -4.62039214610815e-12
+    ],
+    "ConductionBandEnergy": [
+     566,
+     0.07166206698826726
+    ],
+    "ValenceBandEnergy": [
+     566,
+     -4.727522188656003
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     206,
+     1.3672440253024922e+17
+    ],
+    "AcceptorConcentration": [
+     206,
+     2.499999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     206,
+     0.0
+    ],
+    "DonorConcentration": [
+     206,
+     0.0
+    ],
+    "DopingConcentration": [
+     206,
+     -1.3672440253024922e+17
+    ],
+    "ElectricField": [
+     412,
+     1.2023449705342872
+    ],
+    "ConductionBandEnergy": [
+     206,
+     3.2856246325677927
+    ],
+    "ValenceBandEnergy": [
+     206,
+     -0.1515401566334446
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "e4bad6b065f73f7dcb70b4aca7a7374f037af7bf50c2651e3e027f52c26c13e9"
+ },
+ "pGaN_thickness_doping/2A_Planar_Mg_0p75x/rev_V0000_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": 0.0,
+   "anode_fp": 0.0,
+   "anode": 0.0
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.9949213936440224e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.9949213936440224e+16
+    ],
+    "ElectricField": [
+     6288,
+     -0.00028969997209646694
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     0.20727943466404575
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     -4.592716027792439
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     220,
+     9.630426060572371e+16
+    ],
+    "AcceptorConcentration": [
+     220,
+     1.2000000000000028e+18
+    ],
+    "DonorPlusConcentration": [
+     220,
+     0.0
+    ],
+    "DonorConcentration": [
+     220,
+     0.0
+    ],
+    "DopingConcentration": [
+     220,
+     -9.630426060572371e+16
+    ],
+    "ElectricField": [
+     440,
+     -0.2978884842156646
+    ],
+    "ConductionBandEnergy": [
+     220,
+     3.272967841599283
+    ],
+    "ValenceBandEnergy": [
+     220,
+     -0.16445440186034604
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     75,
+     1.2659427627401358e+17
+    ],
+    "AcceptorConcentration": [
+     75,
+     2.1000000000000013e+18
+    ],
+    "DonorPlusConcentration": [
+     75,
+     0.0
+    ],
+    "DonorConcentration": [
+     75,
+     0.0
+    ],
+    "DopingConcentration": [
+     75,
+     -1.2659427627401358e+17
+    ],
+    "ElectricField": [
+     150,
+     -0.47721065474829033
+    ],
+    "ConductionBandEnergy": [
+     75,
+     3.282436542891747
+    ],
+    "ValenceBandEnergy": [
+     75,
+     -0.1548074414088979
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "ElectricField": [
+     1132,
+     -4.625583957346357e-12
+    ],
+    "ConductionBandEnergy": [
+     566,
+     0.07166206698869027
+    ],
+    "ValenceBandEnergy": [
+     566,
+     -4.7275221886555805
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     206,
+     1.7041279042144448e+17
+    ],
+    "AcceptorConcentration": [
+     206,
+     3.750000000000009e+18
+    ],
+    "DonorPlusConcentration": [
+     206,
+     0.0
+    ],
+    "DonorConcentration": [
+     206,
+     0.0
+    ],
+    "DopingConcentration": [
+     206,
+     -1.7041279042144448e+17
+    ],
+    "ElectricField": [
+     412,
+     0.5868548957874102
+    ],
+    "ConductionBandEnergy": [
+     206,
+     3.2919571032017165
+    ],
+    "ValenceBandEnergy": [
+     206,
+     -0.14496032483333826
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "6b6a58c0d31fdc4dceca766f99317ac42a09ea31af3f6fb62d4d46d70fd35b26"
+ },
+ "pGaN_thickness_doping/2A_Planar_Mg_1p50x/rev_V0000_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": 0.0,
+   "anode_fp": 0.0,
+   "anode": 0.0
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.995002606631961e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.995002606631961e+16
+    ],
+    "ElectricField": [
+     6288,
+     -0.00020219613424183295
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     0.2076940223054002
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     -4.592301440151084
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     220,
+     1.3567575508690934e+17
+    ],
+    "AcceptorConcentration": [
+     220,
+     2.3999999999999933e+18
+    ],
+    "DonorPlusConcentration": [
+     220,
+     0.0
+    ],
+    "DonorConcentration": [
+     220,
+     0.0
+    ],
+    "DopingConcentration": [
+     220,
+     -1.3567575508690934e+17
+    ],
+    "ElectricField": [
+     440,
+     -0.10273665072382795
+    ],
+    "ConductionBandEnergy": [
+     220,
+     3.284596569778626
+    ],
+    "ValenceBandEnergy": [
+     220,
+     -0.15258801639924138
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     75,
+     1.8372552782275798e+17
+    ],
+    "AcceptorConcentration": [
+     75,
+     4.20000000000001e+18
+    ],
+    "DonorPlusConcentration": [
+     75,
+     0.0
+    ],
+    "DonorConcentration": [
+     75,
+     0.0
+    ],
+    "DopingConcentration": [
+     75,
+     -1.8372552782275798e+17
+    ],
+    "ElectricField": [
+     150,
+     -0.33057726520036257
+    ],
+    "ConductionBandEnergy": [
+     75,
+     3.2933714199094544
+    ],
+    "ValenceBandEnergy": [
+     75,
+     -0.14345700385787752
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "ElectricField": [
+     1132,
+     -4.632163110446076e-12
+    ],
+    "ConductionBandEnergy": [
+     566,
+     0.07166206698922606
+    ],
+    "ValenceBandEnergy": [
+     566,
+     -4.727522188655045
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     206,
+     2.5467938080068858e+17
+    ],
+    "AcceptorConcentration": [
+     206,
+     7.499999999999978e+18
+    ],
+    "DonorPlusConcentration": [
+     206,
+     0.0
+    ],
+    "DonorConcentration": [
+     206,
+     0.0
+    ],
+    "DopingConcentration": [
+     206,
+     -2.5467938080068858e+17
+    ],
+    "ElectricField": [
+     412,
+     0.2648828243856475
+    ],
+    "ConductionBandEnergy": [
+     206,
+     3.302239923033882
+    ],
+    "ValenceBandEnergy": [
+     206,
+     -0.13393654048321277
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "1b72b81d8e7c299939f9d76b4c3b721fddd2c39e2bd22640dacb32346b8a384d"
+ },
+ "pGaN_thickness_doping/2A_Planar_Mg_2p00x/2A_V5_dop_2p00x_sn_msh.tdr": {
+  "v": {},
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "DopingConcentration": [
+     3144,
+     2e+16
+    ]
+   },
+   "region_pgan": {
+    "DopingConcentration": [
+     220,
+     -3.2000000000000164e+18
+    ]
+   },
+   "region_pgan_mid": {
+    "DopingConcentration": [
+     75,
+     -5.600000000000018e+18
+    ]
+   },
+   "region_sub": {
+    "DopingConcentration": [
+     566,
+     3.6000000000000067e+18
+    ]
+   },
+   "region_pgan_collar": {
+    "DopingConcentration": [
+     206,
+     -1.0000000000000051e+19
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "a49622622df3f6fdba627b1ec8e8934d81e61a68c427ad187b23611869622961"
+ },
+ "pGaN_thickness_doping/2A_Planar_Mg_2p00x/rev_V0000_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": 0.0,
+   "anode_fp": 0.0,
+   "anode": 0.0
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.995042333367874e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.995042333367874e+16
+    ],
+    "ElectricField": [
+     6288,
+     -0.00018575593795797427
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     0.20789964426069565
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     -4.592095818195789
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     220,
+     1.5818199595482528e+17
+    ],
+    "AcceptorConcentration": [
+     220,
+     3.20000000000001e+18
+    ],
+    "DonorPlusConcentration": [
+     220,
+     0.0
+    ],
+    "DonorConcentration": [
+     220,
+     0.0
+    ],
+    "DopingConcentration": [
+     220,
+     -1.5818199595482528e+17
+    ],
+    "ElectricField": [
+     440,
+     -0.06845922880150315
+    ],
+    "ConductionBandEnergy": [
+     220,
+     3.2891568553246238
+    ],
+    "ValenceBandEnergy": [
+     220,
+     -0.1478693885830415
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     75,
+     2.1620131248887594e+17
+    ],
+    "AcceptorConcentration": [
+     75,
+     5.600000000000008e+18
+    ],
+    "DonorPlusConcentration": [
+     75,
+     0.0
+    ],
+    "DonorConcentration": [
+     75,
+     0.0
+    ],
+    "DopingConcentration": [
+     75,
+     -2.1620131248887594e+17
+    ],
+    "ElectricField": [
+     150,
+     -0.28228542642896337
+    ],
+    "ConductionBandEnergy": [
+     75,
+     3.2977407417647027
+    ],
+    "ValenceBandEnergy": [
+     75,
+     -0.13881093442456
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "ElectricField": [
+     1132,
+     -4.634303482936956e-12
+    ],
+    "ConductionBandEnergy": [
+     566,
+     0.07166206698940064
+    ],
+    "ValenceBandEnergy": [
+     566,
+     -4.72752218865487
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     206,
+     3.0291476570757414e+17
+    ],
+    "AcceptorConcentration": [
+     206,
+     1.0000000000000033e+19
+    ],
+    "DonorPlusConcentration": [
+     206,
+     0.0
+    ],
+    "DonorConcentration": [
+     206,
+     0.0
+    ],
+    "DopingConcentration": [
+     206,
+     -3.0291476570757414e+17
+    ],
+    "ElectricField": [
+     412,
+     0.18550942410582635
+    ],
+    "ConductionBandEnergy": [
+     206,
+     3.3063552186155065
+    ],
+    "ValenceBandEnergy": [
+     206,
+     -0.12932819652229602
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "02d44f264039b0bad0bffc6a437af9f239ef31157605719ad3aa764cb3069cb5"
+ },
+ "pGaN_thickness_doping/2A_Planar_Mg_2p00x/rev_final_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": -652.2273333347009,
+   "anode_fp": -652.2273333347009,
+   "anode": -652.2273333347009
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "ElectricField": [
+     6288,
+     -31385.758967462494
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     548.2488869085707
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     543.4488914461142
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     220,
+     1.1530082847850058e+18
+    ],
+    "AcceptorConcentration": [
+     220,
+     3.20000000000001e+18
+    ],
+    "DonorPlusConcentration": [
+     220,
+     0.0
+    ],
+    "DonorConcentration": [
+     220,
+     0.0
+    ],
+    "DopingConcentration": [
+     220,
+     -1.1530082847850058e+18
+    ],
+    "ElectricField": [
+     440,
+     -14981.896488231934
+    ],
+    "ConductionBandEnergy": [
+     220,
+     625.5072982439879
+    ],
+    "ValenceBandEnergy": [
+     220,
+     622.0702720000802
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     75,
+     2.1742494720856883e+17
+    ],
+    "AcceptorConcentration": [
+     75,
+     5.600000000000008e+18
+    ],
+    "DonorPlusConcentration": [
+     75,
+     0.0
+    ],
+    "DonorConcentration": [
+     75,
+     0.0
+    ],
+    "DopingConcentration": [
+     75,
+     -2.1742494720856883e+17
+    ],
+    "ElectricField": [
+     150,
+     -16678.644224436706
+    ],
+    "ConductionBandEnergy": [
+     75,
+     641.6942961457084
+    ],
+    "ValenceBandEnergy": [
+     75,
+     638.2577444695193
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "ElectricField": [
+     1132,
+     -0.006657878322521284
+    ],
+    "ConductionBandEnergy": [
+     566,
+     10.562315422378912
+    ],
+    "ValenceBandEnergy": [
+     566,
+     5.763131166734642
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     206,
+     3.1538962427308966e+17
+    ],
+    "AcceptorConcentration": [
+     206,
+     1.0000000000000033e+19
+    ],
+    "DonorPlusConcentration": [
+     206,
+     0.0
+    ],
+    "DonorConcentration": [
+     206,
+     0.0
+    ],
+    "DopingConcentration": [
+     206,
+     -3.1538962427308966e+17
+    ],
+    "ElectricField": [
+     412,
+     0.28464620013245934
+    ],
+    "ConductionBandEnergy": [
+     206,
+     655.5307045919401
+    ],
+    "ValenceBandEnergy": [
+     206,
+     652.0950211768022
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "a7ed36281303bd1b2cb750206fe54633859149b05a7934a7517b82a205463b5f"
+ },
+ "pGaN_thickness_doping/2B_Planar_t0p08um_RERUN/rev_V0000_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": 0.0,
+   "anode_fp": 0.0,
+   "anode": 0.0
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.9949407071898256e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.9949407071898256e+16
+    ],
+    "ElectricField": [
+     6288,
+     -0.00031487291875826543
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     0.20737695169507714
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     -4.592618510761408
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     177,
+     1.1075590857841106e+17
+    ],
+    "AcceptorConcentration": [
+     177,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     177,
+     0.0
+    ],
+    "DonorConcentration": [
+     177,
+     0.0
+    ],
+    "DopingConcentration": [
+     177,
+     -1.1075590857841106e+17
+    ],
+    "ElectricField": [
+     354,
+     -2.986957183366534
+    ],
+    "ConductionBandEnergy": [
+     177,
+     3.2778495602097046
+    ],
+    "ValenceBandEnergy": [
+     177,
+     -0.1594934449525385
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     60,
+     1.588713755372414e+17
+    ],
+    "AcceptorConcentration": [
+     60,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     60,
+     0.0
+    ],
+    "DonorConcentration": [
+     60,
+     0.0
+    ],
+    "DopingConcentration": [
+     60,
+     -1.588713755372414e+17
+    ],
+    "ElectricField": [
+     120,
+     -0.45189569065577356
+    ],
+    "ConductionBandEnergy": [
+     60,
+     3.2849876315945647
+    ],
+    "ValenceBandEnergy": [
+     60,
+     -0.15211777386639902
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     1.8325266451764733e+18
+    ],
+    "ElectricField": [
+     1132,
+     -5.793519296567743e-12
+    ],
+    "ConductionBandEnergy": [
+     566,
+     0.07873738517919657
+    ],
+    "ValenceBandEnergy": [
+     566,
+     -4.720446870465074
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     151,
+     2.266136810295639e+17
+    ],
+    "AcceptorConcentration": [
+     151,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     151,
+     0.0
+    ],
+    "DonorConcentration": [
+     151,
+     0.0
+    ],
+    "DopingConcentration": [
+     151,
+     -2.266136810295639e+17
+    ],
+    "ElectricField": [
+     302,
+     10.478782591613435
+    ],
+    "ConductionBandEnergy": [
+     151,
+     3.2930323690360273
+    ],
+    "ValenceBandEnergy": [
+     151,
+     -0.14363788463178612
+    ]
+   }
+  },
+  "n": 5217,
+  "sha": "e32ff8cd5e34435bc8a642b45c8c07df66c8dd37f79a266e6fb3b52ed3553842"
+ },
+ "pGaN_thickness_doping/2B_Planar_t0p25um/rev_V0000_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": 0.0,
+   "anode_fp": 0.0,
+   "anode": 0.0
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3252,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3252,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3252,
+     1.996395549672083e+16
+    ],
+    "DonorConcentration": [
+     3252,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3252,
+     1.996395549672083e+16
+    ],
+    "ElectricField": [
+     6504,
+     -0.0005947122268777786
+    ],
+    "ConductionBandEnergy": [
+     3252,
+     0.21610740240776688
+    ],
+    "ValenceBandEnergy": [
+     3252,
+     -4.583888060048718
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     381,
+     1.0153767620578496e+17
+    ],
+    "AcceptorConcentration": [
+     381,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     381,
+     0.0
+    ],
+    "DonorConcentration": [
+     381,
+     0.0
+    ],
+    "DopingConcentration": [
+     381,
+     -1.0153767620578496e+17
+    ],
+    "ElectricField": [
+     762,
+     -0.005025308497272563
+    ],
+    "ConductionBandEnergy": [
+     381,
+     3.2802407588939575
+    ],
+    "ValenceBandEnergy": [
+     381,
+     -0.15710224626828595
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     120,
+     1.4310472656902864e+17
+    ],
+    "AcceptorConcentration": [
+     120,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     120,
+     0.0
+    ],
+    "DonorConcentration": [
+     120,
+     0.0
+    ],
+    "DopingConcentration": [
+     120,
+     -1.4310472656902864e+17
+    ],
+    "ElectricField": [
+     240,
+     -0.023233576091835656
+    ],
+    "ConductionBandEnergy": [
+     120,
+     3.287820276120361
+    ],
+    "ValenceBandEnergy": [
+     120,
+     -0.14928512934060237
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "ElectricField": [
+     1132,
+     -4.919069653186732e-12
+    ],
+    "ConductionBandEnergy": [
+     566,
+     0.07166206701259015
+    ],
+    "ValenceBandEnergy": [
+     566,
+     -4.7275221886316805
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     345,
+     1.9719872503201517e+17
+    ],
+    "AcceptorConcentration": [
+     345,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     345,
+     0.0
+    ],
+    "DonorConcentration": [
+     345,
+     0.0
+    ],
+    "DopingConcentration": [
+     345,
+     -1.9719872503201517e+17
+    ],
+    "ElectricField": [
+     690,
+     0.0011095180814199679
+    ],
+    "ConductionBandEnergy": [
+     345,
+     3.2967623686409517
+    ],
+    "ValenceBandEnergy": [
+     345,
+     -0.1399078850268613
+    ]
+   }
+  },
+  "n": 5968,
+  "sha": "89a1caedfe52190410f5e29af499c982af766e9a2628d3ce1fa239054fd67ae3"
+ },
+ "pGaN_thickness_doping/2B_Planar_t0p35um/2B_V5_tpgan_0p35um_sn_msh.tdr": {
+  "v": {},
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "DopingConcentration": [
+     3263,
+     2e+16
+    ]
+   },
+   "region_pgan": {
+    "DopingConcentration": [
+     485,
+     -1.600000000000005e+18
+    ]
+   },
+   "region_pgan_mid": {
+    "DopingConcentration": [
+     150,
+     -2.800000000000004e+18
+    ]
+   },
+   "region_sub": {
+    "DopingConcentration": [
+     566,
+     3.6000000000000067e+18
+    ]
+   },
+   "region_pgan_collar": {
+    "DopingConcentration": [
+     452,
+     -5.000000000000016e+18
+    ]
+   }
+  },
+  "n": 6174,
+  "sha": "b34ff3dc51f436508bcac5e640f19498ba7f239a9d952c24a851439755b8a0cf"
+ },
+ "pGaN_thickness_doping/2B_Planar_t0p35um/rev_V0000_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": 0.0,
+   "anode_fp": 0.0,
+   "anode": 0.0
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3263,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3263,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3263,
+     1.996709663592054e+16
+    ],
+    "DonorConcentration": [
+     3263,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3263,
+     1.996709663592054e+16
+    ],
+    "ElectricField": [
+     6526,
+     -0.0006001411325856608
+    ],
+    "ConductionBandEnergy": [
+     3263,
+     0.2184535917571568
+    ],
+    "ValenceBandEnergy": [
+     3263,
+     -4.581541870699328
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     485,
+     1.0123921671216794e+17
+    ],
+    "AcceptorConcentration": [
+     485,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     485,
+     0.0
+    ],
+    "DonorConcentration": [
+     485,
+     0.0
+    ],
+    "DopingConcentration": [
+     485,
+     -1.0123921671216794e+17
+    ],
+    "ElectricField": [
+     970,
+     -0.001092924799192548
+    ],
+    "ConductionBandEnergy": [
+     485,
+     3.2803215077025687
+    ],
+    "ValenceBandEnergy": [
+     485,
+     -0.1570214974596747
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     150,
+     1.40138301128939e+17
+    ],
+    "AcceptorConcentration": [
+     150,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     150,
+     0.0
+    ],
+    "DonorConcentration": [
+     150,
+     0.0
+    ],
+    "DopingConcentration": [
+     150,
+     -1.40138301128939e+17
+    ],
+    "ElectricField": [
+     300,
+     -0.020484371130812973
+    ],
+    "ConductionBandEnergy": [
+     150,
+     3.288387126109706
+    ],
+    "ValenceBandEnergy": [
+     150,
+     -0.1487182793512578
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "ElectricField": [
+     1132,
+     -5.192804647174011e-12
+    ],
+    "ConductionBandEnergy": [
+     566,
+     0.07166206703488086
+    ],
+    "ValenceBandEnergy": [
+     566,
+     -4.72752218860939
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     452,
+     1.9705005535230115e+17
+    ],
+    "AcceptorConcentration": [
+     452,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     452,
+     0.0
+    ],
+    "DonorConcentration": [
+     452,
+     0.0
+    ],
+    "DopingConcentration": [
+     452,
+     -1.9705005535230115e+17
+    ],
+    "ElectricField": [
+     904,
+     2.4752112638601907e-06
+    ],
+    "ConductionBandEnergy": [
+     452,
+     3.296782541124475
+    ],
+    "ValenceBandEnergy": [
+     452,
+     -0.13988771254333826
+    ]
+   }
+  },
+  "n": 6174,
+  "sha": "805fe685860d978fb79f8ced66932fc2e4898da66ab3db0ca3048264f6a6210d"
+ },
+ "pGaN_thickness_doping/2B_Planar_t0p35um/rev_final_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": -576.584208211607,
+   "anode_fp": -576.584208211607,
+   "anode": -576.584208211607
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3263,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3263,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3263,
+     1.9999999999999964e+16
+    ],
+    "DonorConcentration": [
+     3263,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3263,
+     1.9999999999999964e+16
+    ],
+    "ElectricField": [
+     6526,
+     -27126.18602363835
+    ],
+    "ConductionBandEnergy": [
+     3263,
+     491.1847987074806
+    ],
+    "ValenceBandEnergy": [
+     3263,
+     486.38480324502405
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     485,
+     1.0584152664505971e+17
+    ],
+    "AcceptorConcentration": [
+     485,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     485,
+     0.0
+    ],
+    "DonorConcentration": [
+     485,
+     0.0
+    ],
+    "DopingConcentration": [
+     485,
+     -1.0584152664505971e+17
+    ],
+    "ElectricField": [
+     970,
+     -5484.912101089782
+    ],
+    "ConductionBandEnergy": [
+     485,
+     568.6339545379873
+    ],
+    "ValenceBandEnergy": [
+     485,
+     565.196611532825
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     150,
+     1.3995818516888762e+17
+    ],
+    "AcceptorConcentration": [
+     150,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     150,
+     0.0
+    ],
+    "DonorConcentration": [
+     150,
+     0.0
+    ],
+    "DopingConcentration": [
+     150,
+     -1.3995818516888762e+17
+    ],
+    "ElectricField": [
+     300,
+     -5901.183365134993
+    ],
+    "ConductionBandEnergy": [
+     150,
+     574.7425380623918
+    ],
+    "ValenceBandEnergy": [
+     150,
+     571.3054326569306
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     2.401388179222238e+18
+    ],
+    "ElectricField": [
+     1132,
+     -0.00705695615568011
+    ],
+    "ConductionBandEnergy": [
+     566,
+     11.020878750144835
+    ],
+    "ValenceBandEnergy": [
+     566,
+     6.221694494500564
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     452,
+     1.9716218517028336e+17
+    ],
+    "AcceptorConcentration": [
+     452,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     452,
+     0.0
+    ],
+    "DonorConcentration": [
+     452,
+     0.0
+    ],
+    "DopingConcentration": [
+     452,
+     -1.9716218517028336e+17
+    ],
+    "ElectricField": [
+     904,
+     -0.006126417662341713
+    ],
+    "ConductionBandEnergy": [
+     452,
+     579.8800960010067
+    ],
+    "ValenceBandEnergy": [
+     452,
+     576.4434257473388
+    ]
+   }
+  },
+  "n": 6174,
+  "sha": "2700fc596be97e1699ea7abfb68723f7c63172153850bc080574e65468294c5c"
+ },
+ "temperature/01_Planar_T350K/rev_V0000_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": 0.0,
+   "anode_fp": 0.0,
+   "anode": 0.0
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.9962716111306364e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.9962716111306364e+16
+    ],
+    "ElectricField": [
+     6288,
+     -0.00028611873383622575
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     0.24640709269468283
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     -4.5240608808770215
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     220,
+     1.988672080655103e+17
+    ],
+    "AcceptorConcentration": [
+     220,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     220,
+     0.0
+    ],
+    "DonorConcentration": [
+     220,
+     0.0
+    ],
+    "DopingConcentration": [
+     220,
+     -1.988672080655103e+17
+    ],
+    "ElectricField": [
+     440,
+     -0.08972985565537456
+    ],
+    "ConductionBandEnergy": [
+     220,
+     3.2408245170744214
+    ],
+    "ValenceBandEnergy": [
+     220,
+     -0.17356905263330127
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     75,
+     2.7074476491452054e+17
+    ],
+    "AcceptorConcentration": [
+     75,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     75,
+     0.0
+    ],
+    "DonorConcentration": [
+     75,
+     0.0
+    ],
+    "DopingConcentration": [
+     75,
+     -2.7074476491452054e+17
+    ],
+    "ElectricField": [
+     150,
+     -0.27843132751928557
+    ],
+    "ConductionBandEnergy": [
+     75,
+     3.2510141996956756
+    ],
+    "ValenceBandEnergy": [
+     75,
+     -0.16314177031076754
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     2.1969547570653972e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     2.1969547570653972e+18
+    ],
+    "ElectricField": [
+     1132,
+     -5.256313301077082e-12
+    ],
+    "ConductionBandEnergy": [
+     566,
+     0.09443063697830217
+    ],
+    "ValenceBandEnergy": [
+     566,
+     -4.675226129781189
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     206,
+     3.7583512311948224e+17
+    ],
+    "AcceptorConcentration": [
+     206,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     206,
+     0.0
+    ],
+    "DonorConcentration": [
+     206,
+     0.0
+    ],
+    "DopingConcentration": [
+     206,
+     -3.7583512311948224e+17
+    ],
+    "ElectricField": [
+     412,
+     0.22150770261933528
+    ],
+    "ConductionBandEnergy": [
+     206,
+     3.261289340624405
+    ],
+    "ValenceBandEnergy": [
+     206,
+     -0.15243147758888798
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "9a69faa3578be66d6a335c1935d495134e6b8ca99e10e8d8c017de652f248fcf"
+ },
+ "temperature/01_Planar_T400K/rev_V0000_des.tdr": {
+  "v": {
+   "cathode": 0.0,
+   "anode_pgan": 0.0,
+   "anode_fp": 0.0,
+   "anode": 0.0
+  },
+  "regions": {
+   "region_epi": "Ga2O3",
+   "region_al2o3_spacer": "AluminumOxide",
+   "region_pgan": "GaN",
+   "region_pgan_mid": "GaN",
+   "region_ambient": "Oxide",
+   "region_passivation": "AluminumOxide",
+   "region_sub": "Ga2O3",
+   "region_pgan_collar": "GaN",
+   "cathode": null,
+   "anode_pgan": null,
+   "anode_fp": null,
+   "anode": null
+  },
+  "fields": {
+   "region_epi": {
+    "AccepMinusConcentration": [
+     3144,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     3144,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     3144,
+     1.997120628797392e+16
+    ],
+    "DonorConcentration": [
+     3144,
+     1.9999999999999964e+16
+    ],
+    "DopingConcentration": [
+     3144,
+     1.997120628797392e+16
+    ],
+    "ElectricField": [
+     6288,
+     -0.00025310117778642945
+    ],
+    "ConductionBandEnergy": [
+     3144,
+     0.2853876743950554
+    ],
+    "ValenceBandEnergy": [
+     3144,
+     -4.454334182111559
+    ]
+   },
+   "region_pgan": {
+    "AccepMinusConcentration": [
+     220,
+     3.07545443457926e+17
+    ],
+    "AcceptorConcentration": [
+     220,
+     1.6000000000000023e+18
+    ],
+    "DonorPlusConcentration": [
+     220,
+     0.0
+    ],
+    "DonorConcentration": [
+     220,
+     0.0
+    ],
+    "DopingConcentration": [
+     220,
+     -3.07545443457926e+17
+    ],
+    "ElectricField": [
+     440,
+     -0.03586215161903605
+    ],
+    "ConductionBandEnergy": [
+     220,
+     3.2013623338026687
+    ],
+    "ValenceBandEnergy": [
+     220,
+     -0.18894100577044723
+    ]
+   },
+   "region_pgan_mid": {
+    "AccepMinusConcentration": [
+     75,
+     4.242306907415925e+17
+    ],
+    "AcceptorConcentration": [
+     75,
+     2.799999999999999e+18
+    ],
+    "DonorPlusConcentration": [
+     75,
+     0.0
+    ],
+    "DonorConcentration": [
+     75,
+     0.0
+    ],
+    "DopingConcentration": [
+     75,
+     -4.242306907415925e+17
+    ],
+    "ElectricField": [
+     150,
+     -0.2301944776946046
+    ],
+    "ConductionBandEnergy": [
+     75,
+     3.212940512865983
+    ],
+    "ValenceBandEnergy": [
+     75,
+     -0.17712522700585323
+    ]
+   },
+   "region_sub": {
+    "AccepMinusConcentration": [
+     566,
+     0.0
+    ],
+    "AcceptorConcentration": [
+     566,
+     0.0
+    ],
+    "DonorPlusConcentration": [
+     566,
+     2.473535491736783e+18
+    ],
+    "DonorConcentration": [
+     566,
+     3.6e+18
+    ],
+    "DopingConcentration": [
+     566,
+     2.473535491736783e+18
+    ],
+    "ElectricField": [
+     1132,
+     -4.809497474492416e-12
+    ],
+    "ConductionBandEnergy": [
+     566,
+     0.11100466705630721
+    ],
+    "ValenceBandEnergy": [
+     566,
+     -4.627905982638094
+    ]
+   },
+   "region_pgan_collar": {
+    "AccepMinusConcentration": [
+     206,
+     5.940131659245412e+17
+    ],
+    "AcceptorConcentration": [
+     206,
+     5.000000000000007e+18
+    ],
+    "DonorPlusConcentration": [
+     206,
+     0.0
+    ],
+    "DonorConcentration": [
+     206,
+     0.0
+    ],
+    "DopingConcentration": [
+     206,
+     -5.940131659245412e+17
+    ],
+    "ElectricField": [
+     412,
+     0.1108528575712207
+    ],
+    "ConductionBandEnergy": [
+     206,
+     3.22459602441359
+    ],
+    "ValenceBandEnergy": [
+     206,
+     -0.16503456366509583
+    ]
+   }
+  },
+  "n": 5392,
+  "sha": "7571c95e5214e45ba2af6e9fcc1b7b73427fbea4bae98ae364025442f44703b1"
+ }
+}

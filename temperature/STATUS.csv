@@ -1,0 +1,9 @@
+study,case,plt,solver_log,tdr_0V,tdr_final,scm
+Study4_Temperature,00_Bare_T350K,yes,yes,no,yes,build_bare_split_105um_sn.scm
+Study4_Temperature,00_Bare_T400K,yes,yes,no,yes,build_bare_split_105um_sn.scm
+Study4_Temperature,01_Planar_T350K,yes,yes,yes,yes,build_planar_150nm_sn.scm
+Study4_Temperature,01_Planar_T400K,yes,yes,yes,yes,build_planar_150nm_sn.scm
+Study4_Temperature,03_Mesa_T350K,yes,yes,yes,yes,build_mesa_150nm_sn.scm
+Study4_Temperature,03_Mesa_T400K,yes,yes,yes,yes,build_mesa_150nm_sn.scm
+Study4_Temperature,04_Trench_T350K,yes,yes,yes,yes,build_trench_150nm_sn.scm
+Study4_Temperature,04_Trench_T400K,yes,yes,yes,yes,build_trench_150nm_sn.scm

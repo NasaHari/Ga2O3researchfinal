@@ -1,0 +1,1 @@
+for Gan  use  Cao et al. 2018 (bulk GaN p-n, APL 112, 262103)	4.48×10⁸ exp(−3.39×10⁷/E)	7.13×10⁶ exp(−1.46×10⁷/E)

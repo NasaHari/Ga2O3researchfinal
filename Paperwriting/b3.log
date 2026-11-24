@@ -1,0 +1,199 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(Manuscript_v5_reverse.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+-- This is a 10 point document.
+) (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+ (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+)))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty)))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+)))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty) (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+) (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty)))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty)))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/dblfloatfix\dblfloatfix
+.sty (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/base\fixltx2e.sty
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+)) (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def) (Manuscript_v5_reverse.aux)
+-- Lines per column: 58 (exact).
+
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg)) (Manuscript_v5_reverse.out) (Manuscript_v5_reverse.out)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
+[1{C:/Users/haria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ha
+ria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.70 
+     ] [2] [3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.112 \FloatBarrier
+                    <./figures/numerical_sensitivity.pdf>] [4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.163 \FloatBarrier
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.163 \FloatBarrier
+                    <./figures/structures.png> <./figures/bare_yang_benchmark.p
+df>] [5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.193 \FloatBarrier
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.193 \FloatBarrier
+                    <./figures/electrical.pdf>] [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.193 \FloatBarrier
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.193 \FloatBarrier
+                    <./figures/geometry_sensitivity.pdf> <./reverse_field_conta
+cts.pdf>] [7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.193 \FloatBarrier
+                    <./figures/bands_fields.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [8]
+Underfull \vbox (badness 10000) has occurred while \output is active [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.248 \FloatBarrier
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.248 \FloatBarrier
+                    <./figures/barrier.pdf> <./figures/reverse_400K.pdf>]
+(Manuscript_v5_reverse.bbl) [10
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.262 \end{document}
+                    ] (Manuscript_v5_reverse.aux) )
+(see the transcript file for additional information)<C:/Users/haria/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/haria/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users
+/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><
+C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi9.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/haria/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/haria/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/haria/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/haria/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ha
+ria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6
+.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb><C:/Users/haria/AppData/Local/Programs/MiKTe
+X/fonts/type1/urw/times/utmb8a.pfb><C:/Users/haria/AppData/Local/Programs/MiKTe
+X/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/haria/AppData/Local/Programs/MiKT
+eX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/haria/AppData/Local/Programs/MiKT
+eX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Manuscript_v5_reverse.pdf (10 pages, 863189 bytes).
+Transcript written on Manuscript_v5_reverse.log.
+pdflatex: major issue: So far, you have not checked for MiKTeX updates.

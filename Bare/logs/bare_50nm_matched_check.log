@@ -1,0 +1,25 @@
+*********************************************************************
+Model sanity report
+*********************************************************************
+
+
+  Number of geometric bodies:    3
+  Number of 2D geometric bodies: 3
+  Number of 3D geometric bodies: 0
+
+
+  ******************************************
+  Body: #[body 20 1] assigned material: Oxide, region name: region_ambient.
+  Body: #[body 27 1] assigned material: Ga2O3, region name: region_epi.
+  Body: #[body 28 1] assigned material: Ga2O3, region name: region_sub.
+  ******************************************
+
+
+  All geometric bodies pass the entity check!
+
+
+  There are no overlapping regions!
+
+
+  Number of Ref/Eval bodies:    6
+  Number of masks:              0

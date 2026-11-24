@@ -1,0 +1,548 @@
+                                                                                                                                                                                                                             1
+
+     Geometry and p-GaN Design Sensitivity in
+-Ga2O3 Rectifiers: An Axisymmetric TCAD Study
+
+                                                              Harikrishnan
+
+   Abstract--We use axisymmetric drift­diffusion simulations                                              TABLE I
+to compare planar, mesa, and trench p-GaN terminations in             REVERSE-TRANSPORT PARAMETERS USED IN THE SIMULATIONS
+-Ga2O3 rectifiers. The planar junction termination extension
+and mesa junction-barrier design with field plates reach ap-          Quantity   -Ga2O3      GaN
+proximately 2336 V at a reverse-current criterion of 1 mA/cm2,
+compared with 1133 V for the tested trench design and 929 V for       ae (cm-1)  7.90 × 105  2.90 × 108
+the selected bare reference. In the planar design, increasing the     ah (cm-1)  7.90 × 105  5.41 × 106
+p-GaN thickness from 150 to 250 nm or increasing the prescribed       be (V/cm)  2.92 × 107  3.40 × 107
+acceptor concentration by 50% reduces the crossing below 700 V.       bh (V/cm)  5.00 × 107  1.96 × 107
+At 400 K, the planar and mesa crossings separate at 1 mA/cm2           (eV)      0.063       0.066
+but lie close together at 10 mA/cm2. The 80-nm, 0.75-eV planar
+variant gives the lowest turn-on voltage among the architecture       The coefficients enter  = a exp(-b/F ), with F the quasi-Fermi-
+cases (0.355 V at 1 A/cm2), but its reverse crossing falls from 2347  gradient driving force and  the temperature factor of the van Overstraeten
+to 925 V when the current criterion is tightened to 0.1 mA/cm2.       model.
+The results describe sensitivities of the simulated structures, not
+fabrication tolerances or device ratings.                             mobility and high-field velocity saturation. Incomplete ionisa-
+                                                                      tion is applied to the donor species in -Ga2O3 and to Mg
+   Index Terms---Ga2O3, p-GaN, junction termination exten-            in GaN. The Mg activation model uses E0 = 0.20 eV with a
+sion, junction barrier Schottky diode, device simulation.             concentration-dependent coefficient of 8.0 × 10-9 eV cm and
+                                                                      a degeneracy factor of 4, giving 4.0­6.9% ionised acceptors
+                          I. INTRODUCTION                             at 298 K across the three zones; the ionised fraction rises
+                                                                      towards unity where the layer is depleted under reverse bias.
+   Vertical -Ga2O3 rectifiers are attractive for high-voltage         Thermionic transport is enabled at the GaN/-Ga2O3 inter-
+switching, but the absence of a shallow -Ga2O3 acceptor               face, and the interface is treated with a fixed sheet charge
+means that edge termination has to be built from a different          of -2.67 × 1011 cm-2 at the -Ga2O3/Al2O3 boundary.
+material. Yang et al. reported unterminated 105-µm Schottky           Ambient regions are represented as an ideal dielectric with
+rectifiers with a mean breakdown voltage of 975 ± 40 V and            r = 1, matching the reference diode, whose characteristics
+showed that the blocking voltage falls for larger contact diam-       were measured unpassivated in air on a probe station [1]; the
+eters [1]. That result provides a reference for the unterminated      298 and 350 K simulations lie inside that measured 25­100 C
+case and sets the scale against which a termination has to be         window, and 400 K lies above it.
+judged.
+                                                                         The nominal Schottky work function is 5.10 eV, giving a
+   p-GaN grown or sputtered on -Ga2O3 supplies the miss-              1.10-eV input barrier against the -Ga2O3 electron affinity of
+ing p-type region. It can be used as a lateral junction ter-          4.00 eV. The simulations include image-force barrier lowering
+mination extension (JTE), as junction-barrier Schottky (JBS)          and nonlocal electron tunnelling with an effective mass of
+rings inside the active area, or as both together with a field        0.38m0 and a 15-nm path length. The reported architecture
+plate (FP). Simulated p-GaN/-Ga2O3 JBS structures have                and sweep results use a tunnelling prefactor g = 1.56 × 10-8.
+been reported [2], [3], and experimental devices now include
+a 3-kV sputtered-p-GaN JTE diode [4] and a 4.3-kV p-GaN                  Impact ionisation uses the van Overstraeten form with
+heterojunction-barrier rectifier [5]. Low-barrier anodes are also     the quasi-Fermi gradient as the driving force, so the plotted
+of interest, since a NiO/-Ga2O3 JBS diode combining a 0.64-           electrostatic field is not by itself a multiplication criterion. The
+V turn-on with 2.34-kV blocking has been demonstrated [6].            -Ga2O3 electron coefficients follow Ghosh and Singisetti [8];
+                                                                      the GaN coefficients are the standard set used for the GaN
+   This study compares forward conduction and reverse block-          transport block (Table I). The -Ga2O3 permittivity is taken
+ing across the simulated architectures. It then tests which           as 12.40, the c-axis static value [9].
+changes in prescribed p-GaN thickness, acceptor concentra-
+tion, input Schottky barrier and temperature alter the electrical        The reverse decks include a constant optical generation
+trade-off. Published devices provide context for the simulated        of 1013 cm-3s-1 for numerical stabilisation. For a 10-µm
+figures of merit rather than a common-criterion performance           drift layer, the direct-generation current scale qGd is 1.6 ×
+ranking.                                                              10-9 A/cm2 before multiplication, well below the operational
+                                                                      current criterion.
+                      II. SIMULATION MODEL
+                                                                      B. Numerical sensitivity
+A. Transport and material parameters
+                                                                         Figure 1(a) shows that the bare-diode crossing changes from
+   The simulations use Sentaurus Device V-2024.03 [7] in              972 to 527 V as the nominal corner spacing decreases from
+cylindrical coordinates with Fermi statistics, doping-dependent
+                                                                                                                                                                                                                             2
+
+16 to 2 nm in the mesh study. The reported 928.7 V reference
+is extracted from a separate split-anode current trace. The
+neighboring single-anode field output is not used to interpret
+that trace. Figure 1(b) shows the changes between the two
+meshes tested for the terminated structures; this comparison
+is not a full mesh-convergence study. The largest change
+is the mesa design, which falls from about 2336 V on the
+reference mesh to about 2130 V on the finer matched-physics
+mesh, so its tabulated value carries an approximately 8% mesh
+uncertainty that the planar value does not.
+                                                                                                                                                                    3
+
+(a)                                                                                                              (b)
+                                                                                                                 2500
+Bare-device threshold (V)1000                                                                                    2000  Reference mesh
+                                                                                      Operational threshold (V)        Finer matched-physics mesh
+
+900
+
+800                                                                                                              1500
+
+700
+
+600                                                                                                              1000
+
+500                                                                                                              500
+
+400                                                                                                              0
+                                                                                                                      Planar JTE + FP Mesa + JTE + FP
+      16 14 12 10 8              6   4  2                                                                                                              Trench + FP
+
+         Nominal corner spacing (nm)
+
+Fig. 1. Numerical sensitivity: (a) bare-diode blocking voltage versus nominal corner mesh spacing; (b) blocking-voltage changes across the two meshes tested
+for each terminated design.
+
+C. Extraction definitions                                         (E0 = 0.060 eV, 50.9% ionised at 298 K). The reference anode
+                                                                  radius is 52.5 µm.
+All current densities refer to the same active-anode area,
+                                                                     In the terminated geometries the planar Schottky section
+Aref = (52.5 × 10-4)2 = 8.6590 × 10-5 cm2. (1)                    has a nominal radius of 51.20 µm with an 80-nm dielectric
+                                                                  corner fillet, leaving a 0.17-µm passivated gap to the p-GaN
+This is a common reference area, not the exposed Schottky         inner edge at 51.45 µm. An ohmic p-GaN contact covers the
+                                                                  52.50­54.50 µm via opening, and the FP electrode runs along
+area of each device or the total chip area. Terminal current      the 55.0­67.0 µm boundary at y = -1.80 to -1.50 µm in
+                                                                  the Al2O3 passivation (r = 9.0). All three top electrodes are
+is taken from the cathode. Forward voltage is the external        biased equipotentially but kept geometrically separate in the
+                                                                  mesh, representing a single external anode interconnect.
+terminal voltage difference; reverse voltage is the magnitude
+                                                                     The 0.15-µm JTE extends from 51.45 to 87.0 µm with zone
+of the anode external potential minus the cathode internal        boundaries at 56.5 and 63.0 µm and written Mg concentrations
+                                                                  of 5.0 × 1018, 2.8 × 1018 and 1.6 × 1018 cm-3 from the
+potential.                                                        inner collar outward, i.e. written sheet densities of 7.5, 4.2 and
+   Blocking is defined at |JR| = 1 mA/cm2, i.e. |IR| =            2.4×1013 cm-2, of which only 4­7% is ionised at equilibrium;
+                                                                  the full sheet is approached only once the layer depletes under
+8.659 × 10-8 A, with logarithmic interpolation between ac-        reverse bias. The three-zone acceptor profile was prescribed in
+                                                                  TCAD; fabrication of this exact profile was not demonstrated.
+cepted samples. An isolated excursion that returns below the      A thickness-stepped film or patterned rings would constitute
+                                                                  a different geometry and was not simulated as an equivalent
+criterion is not accepted; the admitted crossing has to remain    implementation.
+
+above it for the following five samples. Convergence-failure         The active mesa and trench cases contain ten annular p-GaN
+                                                                  regions at 5.0×1018 cm-3, 2 µm wide on a 5-µm radial pitch,
+endpoints and sweeps that end without a crossing are not          bounded by L-shaped 0.20-µm Al2O3 sidewall spacers with
+reported as blocking voltages. Turn-on Von,1 is defined at        a 0.15-µm top overhang and a 50-nm foot fillet. The realised
+JF = 1 A/cm2, and the higher-current voltage VF,100 at            flat active Schottky area is 4.466 × 10-5 cm2, 54.2% of the
+100 A/cm2. Specific resistance is the slope dVF /dJF fitted       planar area of 8.236 × 10-5 cm2. In the mesa build the ten
+over 200­300 A/cm2.                                               0.50-µm rings stand above the un-etched y = 0 epilayer; in
+                                                                  the trench build they are recessed 1.00 µm into the drift, with
+   Two figures of merit are kept separate:                        a 0.15-µm bottom fillet.
+
+Mon   =  VB2R,op           [V],         (2)
+          Von,1
+
+     B = VB2R,op           [W/cm2].     (3)
+            Ron,sp
+
+Equation (2) addresses the blocking/turn-on objective; (3) is
+the conventional Baliga metric. They have different units and
+need not select the same structure.
+
+                     III. DEVICE STRUCTURES
+
+   Fig. 2 shows schematic cross-sections of the four representa-
+tive geometries. The seven electrical cases are a bare Schottky
+diode; a planar JTE with and without an FP; a mesa JBS with
+JTE, with and without an FP; and a trench JBS with JTE, with
+and without an FP. The trench cases retain the outer three-zone
+JTE and are not unterminated controls.
+
+   The drift layer is 10 µm of Si-doped -Ga2O3 at 2.0 ×
+1016 cm-3 on a 650-µm Sn-doped substrate at 3.6×1018 cm-3
+                                                                                                                         4
+
+Fig. 2. Schematic cross-sections of the four representative geometries, drawn from the simulated geometry definitions: (a) bare Schottky diode, (b) planar
+JTE with field plate, (c) mesa JBS with JTE and field plate, (d) trench JBS with JTE and field plate, and (e) enlarged termination view showing the outer
+p-GaN trench ring, Schottky anode, three-zone JTE, Al2O3 spacer and Al field plate. Only the upper part of the substrate is shown; the terminated devices
+extend laterally to 135 µm, and the vertical axis is the mesh coordinate y, which is negative above the epi surface. The no-FP cases omit the field-plate
+electrode from the corresponding geometry.
+
+IV. RESULTS                                                                   0.0
+
+A. Forward and reverse characteristics                                        -0.5
+
+   Fig. 3 and Table II compare the architectures at 298.15 K.    JR (mA/cm2)  -1.0
+The selected bare trace crosses 1 mA/cm2 at 929 V. Figure 4
+compares this trace with two digitized 105-µm measurements                    -1.5             Yang: 105 µm (triangles)
+from Yang et al. [1]. At the same current-density criterion                   -2.0             Yang: 105 µm (squares)
+the simulation lies between the two measured traces. The                      -2.5             Bare TCAD: 105 µm
+comparison checks the scale of the reverse-current rise, not
+the agreement of the pre-knee leakage or mesh convergence.                              -1000  -750 -500 -250            0
+The simulated planar and mesa cases cross at approximately
+2336 V with a field plate and 2221 V without one. The trench                                   Reverse voltage (V)
+cases reach about 1133 V with or without the plate.
+                                                                 Fig. 4. Room-temperature reverse-current benchmark for the 105-µm bare
+   The planar and mesa field-plated designs reach essentially    diode. The triangle and square traces are digitized from Fig. 5 of Yang et
+the same room-temperature blocking criterion. The mesa case      al. [1]; the square trace is shown only where it can be distinguished from
+has a smaller exposed Schottky area and a higher fitted
+resistance on the common reference area.                         overlapping curves. The dashed curve is the selected split-anode TCAD result.
+                                                                 The dotted line marks |JR| = 1 mA/cm2.
+   In the tested trench designs the 1 mA/cm2 crossing is near
+1133 V and changes by less than 1 V between the plated
+and unplated variants. This is a comparison of the specified
+designs, not an isolated test of recessing otherwise identical
+active junctions.
+
+   Within the terminated designs, the fitted resistance on Aref
+increases from the planar to the mesa and trench cases
+(Table II). The selected bare reference is listed separately.
+                                                                                                                                                                   5
+
+     (a)                                                                        (b)                                             (c)
+
+500       Bare SBD                                                        102                                    Bare SBD                          4.82
+400       Planar + FP
+300       Planar, no FP                                                   100                                      Planar + FP                     4.45
+          Mesa + FP                                                                                              Planar, no FP                     4.45
+          Mesa, no FP
+          Trench + FP
+          Trench, no FP
+JF (A/cm2)                                                                10-2                                     Mesa + FP                       4.67
+                                                           |JR| (mA/cm2)  10-4                                   Mesa, no FP                       4.68
+200                                                                                                              Trench + FP
+                                                                                                                                                     5.00
+100
+
+                                                                                                                 Trench, no FP                            5.00
+
+0    0          1        2        3                                       10-6  0         1             2                       0        2  4                   6
+
+          Forward voltage (V)                                                   Reverse voltage magnitude (kV)                           Ron, sp (m cm2)
+
+                                                                                   Bare SBD       Mesa, no FP
+                                                                                   Planar + FP    Trench + FP
+                                                                                   Planar, no FP  Trench, no FP
+                                                                                   Mesa + FP
+
+Fig. 3. Architecture comparison at 298.15 K: (a) forward characteristics, (b) reverse characteristics with markers at the sustained 1 mA/cm2 crossings, and
+(c) specific resistance from the forward fits over 200­300 A/cm2. The field-plated and unplated curves can overlap.
+
+                                                                        TABLE II
+                            EXTRACTED PERFORMANCE AT 298.15 K ON THE COMMON REFERENCE AREA
+
+     Structure                       Von,1 (V) VF,100 (V) Ron,sp (m cm2) VBR,op (V) Mon (MV) B (GW/cm2)
+
+     Bare SBD                        0.697                                         1.294          4.82           929               1.24     0.179
+     Planar JTE + FP                 0.701                                         1.265                                                    1.227
+     Planar JTE, no FP               0.703                                         1.265          4.45           2336              7.78     1.109
+     Mesa JBS + JTE + FP             0.718                                         1.308                                                    1.167
+     Mesa JBS + JTE, no FP           0.721                                         1.308          4.45           2221              7.02     1.055
+     Trench JBS + JTE + FP           0.723                                         1.345                                                    0.257
+     Trench JBS + JTE, no FP         0.721                                         1.345          4.67           2336              7.60     0.257
+     Thin planar, 80 nm, 0.75 eV     0.355                                         0.916                                                    1.237
+                                                                                                  4.68           2221              6.84
+
+                                                                                                  5.00           1133              1.78
+
+                                                                                                  5.00           1133              1.78
+
+                                                                                                  4.45           2347           15.50
+
+The last row uses an 80-nm JTE and a 0.75-eV input barrier. The other terminated cases use a 150-nm outer JTE and a 1.10-eV input barrier. The
+929-V bare value is from the selected split-anode current trace; the separate corner-mesh study is shown in Fig. 1(a). The bare row is also not substrate-
+or geometry-matched to the terminated rows: it uses the 105-µm split-anode device, whereas the terminated cases use the 135-µm domain. Ron,sp is
+compared on the common Aref only, and the difference between the bare and planar values is not attributed to the termination.
+
+B. p-GaN thickness and acceptor concentration                                             is at its own final saved reverse bias. The maps illustrate where
+                                                                                          the field is concentrated; they do not quantify field reduction
+   Figure 5(a) shows the response to changing the prescribed                              at a common voltage.
+Mg concentration. In the planar JTE with FP, the largest
+crossing among the sampled multipliers occurs at the nominal                                 Fig. 7(a),(b) shows equilibrium band cuts at r = 60 µm
+dose. It falls from 2336 to 680 V at 1.5× dose. The lower                                 for selected dose and thickness variants. The model uses
+doses do not follow a monotonic trend, so the tested points                               electron affinities of 4.00 eV for -Ga2O3 and 3.922 eV for
+do not establish a continuous process window.                                             GaN, a 0.078 eV conduction-band offset, with a corresponding
+                                                                                          valence-band offset of about 1.4 eV; the solved band gaps at
+   The mesa and trench results are shown at their sampled dose                            298 K are 4.80 and 3.44 eV. Because the p-GaN termination
+multipliers only. In particular, the lower-dose response of the                           is much more heavily doped than the 2.0 × 1016 cm-3 drift
+trench does not follow the planar sequence.                                               layer, the zero-bias band bending drops almost entirely in the
+                                                                                          -Ga2O3 drift, and the equilibrium curves for different dose
+   For the planar JTE with FP, thicknesses of 0.15, 0.25 and                              and thickness overlap closely. The strong reverse-bias sensitiv-
+0.35 µm give 2336, 629 and 524 V at the nominal input barrier.                            ity in Fig. 7(c),(d) therefore comes from lateral depletion and
+The 0.08-µm sweep at that barrier did not establish a crossing                            charge balance under bias, not from a change in equilibrium
+and is not included in Fig. 5(b). The low-barrier 80-nm case is                           alignment.
+a separate design point. Raising the mesa from 0.25 to 1.00 µm
+while increasing spacer height from 0.40 to 1.15 µm leaves
+the threshold near 2336 V. Increasing trench depth from 1.00
+to 1.50 µm changes the threshold from 1133 to 883 V in the
+tested trench designs.
+
+   Figure 6 shows the reverse electric field across the planar
+termination for selected dose and thickness cases. Each panel
+                                                                                                                                                   6
+
+        (a)                                                                                                    (b)
+
+2500                                                                                                   2500
+
+2000                                                                                                   2000
+
+VBR, op (V)1500                                                                                        1500
+                                                                                          VBR, op (V)
+1000                                                                                                   1000
+
+500                                             Planar + FP                                            500              JTE thickness
+   0                                            Mesa + FP                                                               Mesa height
+                                                Trench + FP
+                                                                                                                        Trench depth
+                    0.50 0.75 1.00 1.25 1.50 1.75
+              0.25        Mg concentration multiplier        2.00                                      0
+                                                                                                              0.2 0.4 0.6 0.8 1.0 1.2 1.4
+
+                                                                                                                    Dimension varied (µm)
+
+Fig. 5. Operational blocking voltage versus (a) prescribed Mg concentration multiplier and (b) varied dimension. The mesa spacer height changes with the
+mesa height. Lines connect simulated points; they do not define a continuous process window.
+
+Depth y (µm)        (a) Mg dose: 0.25× | -1,851 V                  (b) Mg dose: 2.00× | -652 V                                           |E|
+              -1                                                   (d) JTE: 0.35 µm | -577 V                                         (MV/cm)
+
+                0                                                                                                                               6
+
+                2                                                                                                                               5
+
+                4                                                                                                                               4
+
+                6                                                                                                                               3
+                    (c) JTE: 0.15 µm | -2,422 V
+                                                                                                                                                2
+              -1
+                0
+
+              2                                                                                                                            1
+
+              4
+
+              6                                                                                                                            0
+
+                 50  60  70  80                    90              50                                        60     70  80           90
+
+                                         Radius r (µm)
+
+                         Schottky anode                      p-GaN ohmic anode                                          Field plate
+
+                         Backside ohmic cathode: y = 660 µm (outside zoom)
+
+Fig. 6. Reverse electric-field magnitude in the planar JTE with field plate. Top: 0.25× and 2.00× nominal Mg dose at 0.15 µm JTE thickness. Bottom: 0.15
+and 0.35 µm JTE thickness at nominal dose. Panel titles give the saved external anode voltages, not the blocking crossings. The semiconductor uses a shared
+0­6 MV/cm linear scale, with values above 6 MV/cm shown in the top colour. Grey denotes Al2O3.
+                                                                                                                                                                          7
+
+                          (a)                       0.25 × Mg                                                      (b)                                0.35 m
+                                                    Nominal (1.0 × )                                                                                  0.15 m (nom.)
+                       4                            2.0 × Mg                                                   4                                      0.08 m
+
+Band energy (eV)       2 p-GaN                                    EC                       Band energy (eV)    2 p-GaN
+                                                                                                               0
+                       0     EF
+                                                                                                             -2
+                                                                                                                                         EV  1.40 eV
+                                                                                                             -4
+                  -2                                -Ga2O3                                                                    -0.2                    -Ga2O3
+
+                  -4                                                              EV
+                                            0 V bands overlap closely
+                                                                                                                                         0 V bands overlap closely
+
+                                 -0.2  0.0  0.2     0.4                               0.6                                           0.0  0.2          0.4            0.6
+
+                                       Depth y (m)                                                                                  Depth y (m)
+
+                          (c)                                                                                        (d)
+
+|E| in -Ga2O3 (MV/cm)  4                    0.25 × Mg (|Vext| = 1851 V)                    |E| in -Ga2O3 (MV/cm)  4                      0.08 m (|Vext| = 2377 V)
+                                            Nominal (|Vext| = 2427 V)                                                                    0.15 m (|Vext| = 2427 V)
+                                            2.0 × Mg (|Vext| = 652 V)                                                                    0.35 m (|Vext| = 577 V)
+
+                       3                                                                                          3
+
+                       2                                                                                          2
+
+                       1                                                                                          1
+
+                       0                                                                                          0
+
+                          0      2     4    6       8                                 10                             0    2         4    6            8              10
+
+                                       Depth y (m)                                                                                  Depth y (m)
+
+Fig. 7. Cutlines at r = 60 µm: (a),(b) 0-V band diagrams versus Mg multiplier and termination thickness, with solid EC and dashed EV referenced to
+EF = 0; the curves overlap closely because the built-in band bending falls mainly in the lightly doped drift. (c),(d) Reverse drift-region field profiles at the
+final saved reverse-bias states, which need not be at the same voltage. In (b) and (d) the 0.08-µm curve is the 80-nm, 0.75-eV design point; it is not a member
+
+of the 1.10-eV thickness series, so its small offset reflects the input barrier rather than the thickness alone. The annotated state voltages are the solver's final
+
+applied voltages.
+C. Schottky barrier height                                                                                                                                                 8
+
+                                                                2335 V to 926 V for the 150-nm case, and to 925 V for the
+                                                                80-nm design of Table II; these are two different devices under
+                                                                the same leakage criterion. The choice of barrier is therefore
+                                                                a trade against the leakage specification rather than against
+                                                                blocking.
+
+   Figure 8 varies the input barrier across 0.75­1.50 eV. The
+planar blocking crossing stays near 2336 V while its turn-on
+voltage decreases from 0.701 to 0.354 V between 1.10 and
+0.75 eV. The trench crossing remains near 1.13 kV. The mesa
+crossing falls from about 2336 to 2061 V at 0.75 eV.
+
+   Lowering the barrier has a second cost. At -1 kV the planar
+leakage rises from 8.6 × 10-9 to 1.10 × 10-4 A/cm2 between
+1.10 and 0.75 eV, so the 0.1 mA/cm2 threshold falls from
+                                                                                                                                                                      9
+
+     (a)                                   (b)                                                                                            (c)            Planar + FP
+                                                                                                                                                         Mesa + FP
+1.0                                2200                                                                                            15.0                  Trench + FP
+0.8                                2000                                                                                            12.5
+0.6                                1800                                                                                            10.0
+0.4                                1600
+                                   1400                                                                                             7.5
+     0.75 1.00 1.25 1.50           1200                                                                                             5.0
+               Input barrier (eV)                                                                                                   2.5
+                                           0.75 1.00 1.25 1.50
+                                                     Input barrier (eV)
+Von, 1 (V)
+                                                           VBR, op (V)
+                                                                                                                         Mon (MV)
+
+                                                                                                                                   0.75 1.00 1.25 1.50
+                                                                                                                                             Input barrier (eV)
+
+Fig. 8. Input-barrier sweep at 298.15 K: (a) turn-on at 1 A/cm2, (b) blocking at 1 mA/cm2, and (c) Mon. Two incomplete trench forward sweeps at 0.90
+and 1.30 eV are omitted from (a) and (c); their valid reverse crossings are included in (b).
+
+D. Temperature                                                                         (a)                                                          (b)
+
+                                                                                 103        Planar                                             102
+                                                                                 102        Mesa
+                                                                  |JR| (mA/cm2)             Trench
+
+                                                                                 101                                                           101
+
+                                                                                 100
+
+   Fig. 9 compares the three terminated families at 400 K.                       10-1                                                          100
+The planar crossing moves from 2336 V at 298 K to 2437 V
+at 350 K, a shift of about +2 V/K. A blocking voltage that                             0    1                                      2                      2.525 2.550 2.575
+rises with temperature is the signature of an impact-ionisation-                                                                                       Reverse voltage (kV)
+limited knee, since the multiplication rate falls as phonon                               Reverse voltage (kV)
+scattering shortens the carrier mean free path. At 400 K the
+crossing falls to 1473 V, but that number is no longer a          Fig. 9. Simulated reverse current density at 400 K: (a) full comparison with
+multiplication voltage: the reverse current at this temperature   markers at the sustained 1 mA/cm2 crossings; (b) zoom near the steep rise
+is dominated by thermionic emission over the 1.10-eV barrier,     in the planar and mesa currents. Dotted lines indicate the 1 and 10 mA/cm2
+which passes 1 mA/cm2 before the multiplication-limited           criteria.
+value is reached. The 298 and 350 K crossings therefore
+measure the avalanche knee, while the 400 K crossing mea-         E. Best structure and comparison with published devices
+sures where the leakage specification is exhausted. The two
+are not comparable, and the planar­mesa separation at 400 K          Among the architecture cases in Table II, the 80-nm planar
+reflects the exposed Schottky area rather than a change in        JTE at a 0.75-eV input barrier gives the highest Mon. The
+multiplication. The mesa holds 2440 V at 350 K and 2007 V         main difference from the 150-nm, 1.10-eV case is its lower
+at 400 K, and the trench rises from 1133 to 1280 and 1438 V.      turn-on voltage; the simulated 1 mA/cm2 blocking voltages
+                                                                  and Baliga figures of merit remain close.
+   At the planar 400-K crossing, the calculated reverse current
+is dominated by the Schottky electron component. The mesa            The same 80-nm, 0.75-eV case crosses 0.1 mA/cm2 at
+has 54.2% of the planar exposed Schottky area, but its leakage    925 V, compared with 2347 V at 1 mA/cm2. The lower turn-
+per unit of that area is higher at matched bias. Thus the higher  on voltage therefore comes with a substantial reverse-leakage
+mesa voltage at this common-reference current criterion is        trade-off when the current limit is tightened.
+consistent with a smaller exposed area, not necessarily better
+local leakage suppression.                                           Table III places the simulated values alongside reported
+                                                                  measurements. The table is not a ranking at a common reverse-
+                                                                  current criterion. In particular, Chang et al. report 3 kV at
+                                                                  1 A/cm2 [4], while this study reports simulation crossings at
+                                                                  1 mA/cm2.
+
+   At 10 mA/cm2 and 400 K, the planar and mesa crossings
+
+are 2545 and 2551 V, while the trench crosses at 1439 V. The
+large separation between planar and mesa at 1 mA/cm2 nearly
+disappears at 10 mA/cm2.
+                                                                                                                                                      10
+
+                                                        TABLE III
+                                   COMPARISON WITH PUBLISHED RECTIFIERS
+
+Device                             Evidence   VBR (V)                          Von (V)    Ron,sp (m cm2)         V 2/Von (MV)        B (GW/cm2)
+
+Yang et al. [1]                    measured   975 ± 40                                 ­                  6.7                     ­          0.154a
+Su et al. [6]                      measured        2340                            0.64                     5.3               8.56              1.03
+Chang et al. [4]                   measured       3000b                            0.80                                     11.25               1.46
+Planar JTE + FP, 0.15 µm, 1.10 eV  simulated       2336                           0.701                    6.15               7.78             1.227
+Planar JTE + FP, 0.08 µm, 0.75 eV  simulated       2347                           0.355                    4.45             15.50              1.237
+                                                                                                           4.45
+
+aAuthor-reported value. bMeasured at a reverse current density of 1 A/cm2 [4]. Simulated reverse voltages use 1 mA/cm2 on Aref . Literature values
+retain their original extraction conventions.
+
+          V. DESIGN SENSITIVITY AND LIMITATIONS                                [3] P. H. Than, T. Q. Than, and Y. Takaki, "Design and evaluation of
+                                                                                    -Ga2O3 junction barrier Schottky diode with p-GaN heterojunction,"
+   The strongest sensitivity in the planar cases is to the                          Physica Scripta, vol. 99, no. 9, p. 095975, 2024.
+prescribed p-GaN thickness and acceptor concentration. In-
+creasing the thickness from 150 to 250 nm lowers the crossing                  [4] Q. Chang, B. Hou, L. Yang, M. Jia, Y. Zhu, M. Wu, M. Zhang, Q. Zhu,
+from 2336 to 629 V, and increasing Mg concentration to                              H. Lu, J. Xu, C. Shi, J. Du, Q. Yu, M. Li, X. Zou, H. Sun, X. Ma, and
+1.5× nominal lowers it to 680 V. These are changes between                          Y. Hao, "3 kV fully vertical -Ga2O3 junction termination extension
+sampled simulation points, not manufacturing tolerances. The                        Schottky barrier diode with sputtered p-GaN," Applied Physics Letters,
+nearly unchanged mesa crossing applies to the paired ring and                       vol. 126, no. 6, p. 062102, 2025.
+spacer height changes, not to either dimension independently.
+                                                                               [5] Q. Chang, L. Yang, B. Hou, M. Jia, Y. Zhu, M. Wu, M. Zhang, Q. Zhu,
+   Chang et al. demonstrated a sputtered p-GaN/-Ga2O3                               H. Lu, X. Wang, C. Shi, J. Du, Q. Yu, M. Li, X. Ma, and Y. Hao, "4.3-
+termination [4]; that process does not validate the exact three-                    kV fully vertical -Ga2O3 heterojunction barrier Schottky diode with
+zone profile or the bulk-GaN ionisation coefficients used                           sputtered p-GaN," IEEE Transactions on Electron Devices, vol. 73, no. 6,
+here. The equilibrium ionised fraction is a model output, not                       pp. 3456­3462, 2026.
+a measured process activation fraction. The 1.5-µm Al2O3
+model uses r = 9 and assumed interface charge; it does                         [6] C. Su, H. Zhou, K. Zhang, C. Wang, S. Sun, H. Gong, J. Ye, Z. Liu,
+not include dielectric failure. The Schottky and spacer-foot                        K. Dang, Z. Hu, X. Zhang, J. Wei, X. Luo, J. Zhang, R. Zhang, and
+fillets are nominal model dimensions. Contact and dielectric                        Y. Hao, "Low turn-on voltage and 2.3 kV -Ga2O3 heterojunction barrier
+reliability, trap-assisted leakage beyond the included models,                      Schottky diodes with Mo anode," Applied Physics Letters, vol. 124,
+and self-heating were not validated.                                                no. 17, p. 173506, 2024.
+
+                                                                               [7] Sentaurus Device User Guide and Sentaurus Visual User Guide, Synop-
+                                                                                    sys, 2024, version V-2024.03.
+
+                                                                               [8] K. Ghosh and U. Singisetti, "Impact ionization in -Ga2O3," Journal of
+                                                                                    Applied Physics, vol. 124, no. 8, p. 085707, 2018.
+
+                                                                               [9] A. Fiedler, R. Schewski, Z. Galazka, and K. Irmscher, "Static dielectric
+                                                                                    constant of -Ga2O3 perpendicular to the principal planes (100), (010),
+                                                                                    and (001)," ECS Journal of Solid State Science and Technology, vol. 8,
+                                                                                    no. 7, pp. Q3083­Q3085, 2019.
+
+                          VI. CONCLUSION
+
+   The nominal plated planar and mesa designs in this TCAD
+study reach about 2336 V at 1 mA/cm2, compared with
+1133 V for the tested trench and 929 V for the selected bare
+reference. The pronounced drop from 2336 to 629 V when
+planar JTE thickness increases from 150 to 250 nm illustrates
+why the termination profile matters. At 400 K, the planar­
+mesa ranking depends on the reverse-current criterion. The
+80-nm, low-barrier design improves turn-on, but its 925-V
+crossing at 0.1 mA/cm2 limits the benefit under a stricter
+leakage specification. These results guide comparisons within
+the tested design space; they do not establish fabricated voltage
+ratings.
+
+                        ACKNOWLEDGMENT
+
+   The author thanks his project supervisor and research group
+for technical guidance, and the Microelectronics Laboratory
+for computational and Synopsys TCAD facilities.
+
+                             REFERENCES
+
+[1] J. Yang, S. Ahn, F. Ren, S. J. Pearton, S. Jang, J. Kim, and A. Kuramata,
+     "High reverse breakdown voltage Schottky rectifiers without edge termi-
+     nation on Ga2O3," Applied Physics Letters, vol. 110, no. 19, p. 192101,
+     2017.
+
+[2] A. Nandi, K. S. Rana, and A. Bag, "Design and analysis of p-GaN/n-
+     Ga2O3 based junction barrier Schottky diodes," IEEE Transactions on
+     Electron Devices, vol. 68, no. 12, pp. 6052­6058, 2021.
+

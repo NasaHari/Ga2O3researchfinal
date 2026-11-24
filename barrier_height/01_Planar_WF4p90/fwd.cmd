@@ -1,0 +1,56 @@
+* Unified Forward Sweep (01_Planar_WF4p90, WF=4.900, T=298.15, Sn-substrate)
+File {
+  Grid      = "planar_150nm_sn_msh.tdr"
+  Parameter = "des_g156e8_sn.par"
+  Plot      = "fwd.tdr"
+  Current   = "fwd.plt"
+  Output    = "fwd.log"
+}
+Electrode {
+  { Name="anode"      Voltage=0.0 Schottky WorkFunction=4.900 }
+  { Name="anode_pgan" Voltage=0.0 }
+  { Name="anode_fp"   Voltage=0.0 }
+  { Name="cathode"    Voltage=0.0 }
+}
+Physics {
+  Temperature = 298.15
+  Fermi
+  Mobility(DopingDependence HighFieldSaturation(GradQuasiFermi))
+  Recombination(SRH Auger)
+  Thermionic
+}
+Physics(Material="Ga2O3") { IncompleteIonization(Dopants="nSiliconActiveConcentration nTinActiveConcentration") }
+Physics(Material="GaN")   { IncompleteIonization(Dopants="pMagnesiumActiveConcentration") }
+Physics(MaterialInterface="GaN/Ga2O3") { Thermionic RecVel(TempDep) }
+Physics(Electrode="anode") { BarrierLowering eRecVel(TempDep) }
+Physics(MaterialInterface="Ga2O3/AluminumOxide") { Recombination(SurfaceSRH) Traps((FixedCharge Conc=-2.67e11)) }
+Physics(MaterialInterface="GaN/AluminumOxide")   { Recombination(SurfaceSRH) }
+Plot {
+  eDensity hDensity Potential SpaceCharge ElectricField/Vector
+  eCurrent/Vector hCurrent/Vector TotalCurrent/Vector
+  ConductionBandEnergy ValenceBandEnergy eQuasiFermiEnergy hQuasiFermiEnergy
+  Doping DonorConcentration AcceptorConcentration DonorPlusConcentration AccepMinusConcentration IonizedDopingConcentration
+}
+Math {
+  ExitOnFailure Cylindrical(xAxis=0) -CheckUndefinedModels
+  -Extrapolate Derivatives ExtendedPrecision(80)
+  RelErrControl Digits=4 Iterations=50 NotDamped=18 LineSearchDamping=0.5
+  ErrRef(Electron)=1e4 ErrRef(Hole)=1e4 RHSMin=1e-6
+  Method=ParDiSo(NonsymmetricPermutation IterativeRefinement)
+  CNormPrint NumberOfThreads=4 Wallclock ParameterInheritance=Flatten
+  ParallelToInterfaceInBoundaryLayer(FullLayer)
+  ComputeGradQuasiFermiAtContacts=UseQuasiFermi
+}
+Solve {
+  Coupled(Iterations=100) { Poisson }
+  Coupled(Iterations=100) { Poisson Electron Hole }
+  Quasistationary(InitialStep=5e-3 MaxStep=0.025 MinStep=1e-9 Increment=1.5 Decrement=2.0
+    Goal { Name="anode"      Voltage=3.5 }
+    Goal { Name="anode_pgan" Voltage=3.5 }
+    Goal { Name="anode_fp"   Voltage=3.5 }
+  ) {
+    Coupled { Poisson Electron Hole }
+    Plot(FilePrefix="fwd_V250" Time=(0.7142857))
+  }
+  Plot(FilePrefix="fwd_V350")
+}

@@ -1,0 +1,147 @@
+Evaluating file build_split.scm
+---> (sde:clear)
+()
+---> (sdegeo:set-default-boolean BAB)
+"ABA"
+---> (define R_anode 52.5)
+R_anode
+---> (define R_domain 105.0)
+R_domain
+---> (define T_epi 10.0)
+T_epi
+---> (define T_sub 650.0)
+T_sub
+---> (define Y_epi_bot T_epi)
+Y_epi_bot
+---> (define Y_sub_bot (+ T_epi T_sub))
+Y_sub_bot
+---> (define edge_radius 0.05)
+edge_radius
+---> (define T_anode_metal 0.1)
+T_anode_metal
+---> (define T_ambient 0.5)
+T_ambient
+---> (define include_ambient #t)
+include_ambient
+---> (define include_metal_sidewall_contact #t)
+include_metal_sidewall_contact
+---> (define N_epi 2e+16)
+N_epi
+---> (define N_sub 3.6e+18)
+N_sub
+---> (if include_ambient (begin (define reg_ambient (sdegeo:create-rectangle (position R_anode (- 0.0 T_ambient) 0.0) (position R_domain 0.0 0.0) Oxide region_ambient)) (sdegeo:fillet-2d (find-vertex-id (position R_anode 0.0 0.0)) edge_radius)))
+(#[body 20 1])
+---> (define reg_epi (sdegeo:create-rectangle (position 0.0 0.0 0.0) (position R_domain Y_epi_bot 0.0) Ga2O3 region_epi))
+reg_epi
+---> (define reg_sub (sdegeo:create-rectangle (position 0.0 Y_epi_bot 0.0) (position R_domain Y_sub_bot 0.0) Ga2O3 region_sub))
+reg_sub
+---> (sdegeo:define-contact-set anode 4 (color:rgb 1.0 0.0 0.0) ##)
+()
+---> (sdegeo:define-contact-set anode_rim 4 (color:rgb 1.0 0.5 0.0) ##)
+()
+---> (sdegeo:define-contact-set cathode 4 (color:rgb 0.0 0.0 1.0) ##)
+()
+---> (sdegeo:insert-vertex (position 52.0 0.0 0.0))
+(#[vertex 29 1])
+---> (sdegeo:set-current-contact-set anode)
+""
+---> (sdegeo:set-contact-edges (find-edge-id (position 26.0 0.0 0.0)) anode)
+#t
+---> (sdegeo:set-current-contact-set anode_rim)
+"anode"
+---> (sdegeo:set-contact-edges (find-edge-id (position 52.25 0.0 0.0)) anode_rim)
+#t
+---> (define e_arc (find-edge-id (position 52.51464466 -0.01464466 0.0)))
+e_arc
+---> (if (not (null? e_arc)) (sdegeo:set-contact-edges e_arc anode_rim))
+#t
+---> (if (and include_ambient include_metal_sidewall_contact) (begin (sdegeo:insert-vertex (position R_anode (- 0.0 T_anode_metal) 0.0)) (sdegeo:set-contact-edges (find-edge-id (position R_anode (- 0.0 (/ T_anode_metal 2.0)) 0.0)) anode_rim)))
+#t
+---> (sdegeo:set-current-contact-set cathode)
+"anode_rim"
+---> (sdegeo:set-contact-edges (find-edge-id (position (/ R_domain 2.0) Y_sub_bot 0.0)) cathode)
+#t
+---> (sdedr:define-constant-profile Doping_Epi_Def nSiliconActiveConcentration N_epi)
+#t
+---> (sdedr:define-constant-profile-region Place_Doping_Epi Doping_Epi_Def region_epi)
+#t
+---> (sdedr:define-constant-profile Doping_Sub_Def nTinActiveConcentration N_sub)
+#t
+---> (sdedr:define-constant-profile-region Place_Doping_Sub Doping_Sub_Def region_sub)
+#t
+---> (sdedr:define-refinement-size Ref_Global 10.0 30.0 1.0 0.5)
+#t
+---> (sdedr:define-refinement-material Place_Ref_Global Ref_Global Ga2O3)
+#t
+---> (sdedr:define-refinement-size Ref_Epi 2.0 0.25 0.2 0.05)
+#t
+---> (sdedr:define-refinement-region Place_Ref_Epi Ref_Epi region_epi)
+#t
+---> (sdedr:define-refeval-window Win_Schottky Rectangle (position 0.0 0.0 0.0) (position R_anode 0.5 0.0))
+#[body 50 1]
+---> (sdedr:define-refinement-size Ref_Schottky 1.0 0.02 0.1 0.005)
+#t
+---> (sdedr:define-refinement-placement Place_Ref_Schottky Ref_Schottky Win_Schottky)
+#t
+---> (sdedr:define-refeval-window Win_Corner_Core Rectangle (position (- R_anode 0.2) -0.15 0.0) (position (+ R_anode 0.2) 0.15 0.0))
+#[body 51 1]
+---> (sdedr:define-refinement-size Ref_Corner_Core 0.016 0.016 0.008 0.003)
+#t
+---> (sdedr:define-refinement-placement Place_Ref_Corner_Core Ref_Corner_Core Win_Corner_Core)
+#t
+---> (sdedr:define-refeval-window Win_Corner_Graded_In Rectangle (position (- R_anode 1.5) 0.0 0.0) (position R_anode 1.0 0.0))
+#[body 52 1]
+---> (sdedr:define-multibox-size Mbox_Corner_In 0.1 0.05 0.02 0.01 -1.25 1.25)
+#t
+---> (sdedr:define-multibox-placement Place_Mbox_Corner_In Mbox_Corner_In Win_Corner_Graded_In)
+#t
+---> (sdedr:define-refeval-window Win_Corner_Graded_Out_Amb Rectangle (position R_anode -0.2 0.0) (position (+ R_anode 1.5) 0.0 0.0))
+#[body 53 1]
+---> (sdedr:define-multibox-size Mbox_Corner_Out_Amb 0.1 0.05 0.02 0.01 1.25 -1.25)
+#t
+---> (sdedr:define-multibox-placement Place_Mbox_Corner_Out_Amb Mbox_Corner_Out_Amb Win_Corner_Graded_Out_Amb)
+#t
+---> (sdedr:define-refeval-window Win_Corner_Graded_Out_Semi Rectangle (position R_anode 0.0 0.0) (position (+ R_anode 1.5) 1.0 0.0))
+#[body 54 1]
+---> (sdedr:define-multibox-size Mbox_Corner_Out_Semi 0.1 0.05 0.02 0.01 1.25 1.25)
+#t
+---> (sdedr:define-multibox-placement Place_Mbox_Corner_Out_Semi Mbox_Corner_Out_Semi Win_Corner_Graded_Out_Semi)
+#t
+---> (sdedr:define-refeval-window Win_Corner_Outer Rectangle (position (- R_anode 4.0) 0.0 0.0) (position (+ R_anode 4.0) 2.5 0.0))
+#[body 55 1]
+---> (sdedr:define-refinement-size Ref_Corner_Outer 0.4 0.15 0.08 0.04)
+#t
+---> (sdedr:define-refinement-placement Place_Ref_Corner_Outer Ref_Corner_Outer Win_Corner_Outer)
+#t
+---> (if include_ambient (begin (sdedr:define-refinement-size Ref_Ambient 2.0 0.1 0.1 0.02) (sdedr:define-refinement-region Place_Ref_Ambient Ref_Ambient region_ambient)))
+#t
+---> (sdedr:define-refinement-size Ref_Sub 10.0 30.0 1.0 1.0)
+#t
+---> (sdedr:define-refinement-region Place_Ref_Sub Ref_Sub region_sub)
+#t
+---> (sde:check-model bare_50nm_matched_check.log)
+
+---> (sdegeo:check-geometry (find-region-id region_epi) #t)
+#t
+---> (if include_ambient (sdegeo:check-geometry (find-region-id region_ambient) #t))
+#t
+---> (sde:show-contact anode)
+()
+---> (sde:show-contact cathode)
+()
+---> (sde:info all)
+
+---> (sde:set-project-name bare_50nm_matched)
+""
+---> (sde:save-model bare_split_model)
+#t
+---> (sde:build-mesh bare_split_msh)
+#t
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Sat Nov 14 17:27:41 2026"
+"End   Time:    Sat Nov 14 17:27:45 2026"
+"Total Execution Time (sec):    4"
+"Total System calls Time (sec): 0"
+"************************************************************************"

@@ -1,0 +1,74 @@
+{
+  "window_r0_r1_y0_y1_um": [
+    48.0,
+    90.0,
+    -1.9,
+    6.0
+  ],
+  "display_MV_cm": [
+    0,
+    6.0
+  ],
+  "states": [
+    {
+      "case": "Study2_Thickness_Doping/2A_Planar_Mg_0p25x",
+      "tdr": "Study2_Thickness_Doping/2A_Planar_Mg_0p25x/rev_final_des.tdr",
+      "contact_voltage_V": {
+        "cathode": 0.0,
+        "anode_pgan": -1851.0044652453946,
+        "anode_fp": -1851.0044652453946,
+        "anode": -1851.0044652453946
+      },
+      "window_node_p50_p95_p99_MV_cm": [
+        2.962514728751859,
+        3.953230918379238,
+        4.547308171024743
+      ]
+    },
+    {
+      "case": "Study2_Thickness_Doping/2A_Planar_Mg_2p00x",
+      "tdr": "Study2_Thickness_Doping/2A_Planar_Mg_2p00x/rev_final_des.tdr",
+      "contact_voltage_V": {
+        "cathode": 0.0,
+        "anode_pgan": -652.2273333347009,
+        "anode_fp": -652.2273333347009,
+        "anode": -652.2273333347009
+      },
+      "window_node_p50_p95_p99_MV_cm": [
+        1.815007261867952,
+        2.4702536003241753,
+        3.9509060357336097
+      ]
+    },
+    {
+      "case": "Study1_Architectures/01_Planar_JTE_FP",
+      "tdr": "Study1_Architectures/01_Planar_JTE_FP/rev_final_des.tdr",
+      "contact_voltage_V": {
+        "cathode": 0.0,
+        "anode_pgan": -2422.4526984694676,
+        "anode_fp": -2422.4526984694676,
+        "anode": -2422.4526984694676
+      },
+      "window_node_p50_p95_p99_MV_cm": [
+        3.687966378305254,
+        4.10403779956483,
+        4.763258792413513
+      ]
+    },
+    {
+      "case": "Study2_Thickness_Doping/2B_Planar_t0p35um",
+      "tdr": "Study2_Thickness_Doping/2B_Planar_t0p35um/rev_final_des.tdr",
+      "contact_voltage_V": {
+        "cathode": 0.0,
+        "anode_pgan": -576.584208211607,
+        "anode_fp": -576.584208211607,
+        "anode": -576.584208211607
+      },
+      "window_node_p50_p95_p99_MV_cm": [
+        1.6843297099034231,
+        2.221330604027196,
+        3.6523099240767714
+      ]
+    }
+  ]
+}

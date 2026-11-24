@@ -1,0 +1,61 @@
+###########################################
+# Sentaurus Visual V-2024.03.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov 24, 2026. 12:10:43.
+# Version: 35.3.8727837 (3.8727837)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: C1.goa.bits-pilani.ac.in.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 4.18.0-553.37.1.el8_10.x86_64.
+###########################################
+
+load_file /home/2023b5aa1006g/synopsys_chipin_work/STDB/tmp/Yang_OldPublished_Model_Adapted/Pgan_Boost_Research_20261114/08_Test_Yang_PlanarNLM_g156e8/rev_298K_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> rev_298K_des
+create_curve -axisX {anode InnerVoltage} -axisY {cathode TotalCurrent} -dataset {rev_298K_des} -plot Plot_1
+#-> Curve_1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+move_plot -plot Plot_1 -position {-147.059 -0.00011903}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+move_plot -plot Plot_1 -position {-151.99 -0.000190544}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+move_plot -plot Plot_1 -position {-66.383 -8.12416e-05}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9

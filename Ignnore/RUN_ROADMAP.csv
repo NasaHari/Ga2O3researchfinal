@@ -1,0 +1,18 @@
+phase,run_id,device,variable,levels,gate_before_next,est_cost,status
+P0,R0,all,freeze+hash reference curves (bare, planar, mesa, thin80) + parity inputs,1,hashes recorded; no overwrite,done today,PLANNED
+P1,R1,bare 105um,substrate species unified to Sn + anisotropic epsilon on/off,2,bare crossing reproduced or shift explained,2 runs x ~0.5h (163 pts/1027 s measured),PLANNED
+P1,R2,bare 105um,mesh family convergence record,3,bare only; not used for terminated devices,1 run,PLANNED
+P2,G1,planar SM-JTE,geometry rebuild: 8-10 discrete rings, gap 1.50um, 0.10um corner,(build),SDE+mesh validation; no shared edges; solid FP present in tdr,2-3 days authoring,PLANNED
+P2,G2,ring JBS,rings 2.5/1.5um, 83deg, 0.5um film, SiN spacer,(build),same,2 days,PLANNED
+P2,G3,NiO fin JBS,0.85um fin, 1.2um depth, 40nm NiO, SM-JTE,(build),datexcodes acceptor verified in log,2 days,PLANNED
+P3,P1,planar SM-JTE,physics: Aniso(Poisson)+PF/VRH+traps; -100V and -500V pilots,2,converges; field margins printed,2 pilots,PLANNED
+P4,A1,Device A,sheet charge 0.6/0.75/0.9/1.0/1.1x,5,VBR within 10% band; design point >=2 steps from cliff,5 runs x hours,PLANNED
+P4,A2,Device A,FP overhang 4/8/12/15um,4,dielectric <=3.5MV/cm at VBR and Vstop,4 runs,PLANNED
+P4,A3,Device A,corner radius 50/100/200nm,3,<5% change at 2x mesh,3 runs + remesh,PLANNED
+P5,B1,Device B,ring pitch 2.5/1.5 and 2.0/3.0,2,leakage physical at 0.8VBR,4 runs,PLANNED
+P5,B2,Device B,D_it 1e12/2e12; PF phi_t 0.69/0.74/0.79,3,Von trade-off reproduced,3 runs,PLANNED
+P6,C1,Device C,fin width 0.6/0.85/1.25um,3,leakage <1e-2 A/cm2 order,3 runs,PLANNED
+P6,C2,Device C,NiO acceptor 0.5/1/2x,3,builds and converges,3 runs,PLANNED
+P7,V1,all four architectures,LHS process window (6 params),24-32,distributions reported not points,24-32 runs,PLANNED
+P8,E1,all,comparison table under one criterion,1,every row hashed and traceable,days,PLANNED
+P9,W1,manuscript,rewrite affected sections + limitations + provenance appendix,1,reviewer can rebuild any row,days,PLANNED

@@ -1,0 +1,250 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(Manuscript_v5_figures_aligned.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+-- This is a 10 point document.
+) (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+ (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+)))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty)))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+)))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty) (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+) (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty)))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty)))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def) (Manuscript_v5_figures_aligned.aux)
+-- Lines per column: 58 (exact).
+
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg)) (Manuscript_v5_figures_aligned.out) (Manuscript_v5_figures_aligned.out)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
+[1{C:/Users/haria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ha
+ria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] [2 <./figures/n
+umerical_sensitivity.pdf>] [3 <./figures/structures.png> <./figures/electrical.
+pdf> <./figures/bare_yang_benchmark.pdf>]
+Underfull \vbox (badness 7869) has occurred while \output is active [4 <./figur
+es/architecture_reverse_fields.pdf>] [5 <./figures/geometry_sensitivity.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [6 <./reve
+rse_field_contacts.pdf> <./figures/bands_fields.pdf>] [7 <./figures/barrier.pdf
+> <./figures/reverse_400K.pdf>] (Manuscript_v5_figures_aligned.bbl) [8]
+(Manuscript_v5_figures_aligned.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)<C:/Users/haria/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/haria/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users
+/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
+C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i6.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi7.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi9.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/haria/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/haria/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/haria/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/haria/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/h
+aria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
+Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.p
+fb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmsy6.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/haria/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/haria/AppData/Local
+/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/haria/AppData/Local
+/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/haria/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/haria/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Manuscript_v5_figures_aligned.pdf (8 pages, 1134273 bytes).
+Transcript written on Manuscript_v5_figures_aligned.log.
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(Manuscript_v5_figures_aligned.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+-- This is a 10 point document.
+) (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+ (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+)))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty)))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+)))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty) (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+) (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty)))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty)))
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def) (Manuscript_v5_figures_aligned.aux)
+-- Lines per column: 58 (exact).
+
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg)) (Manuscript_v5_figures_aligned.out) (Manuscript_v5_figures_aligned.out)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\haria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
+[1{C:/Users/haria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ha
+ria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] [2 <./figures/n
+umerical_sensitivity.pdf>] [3 <./figures/structures.png> <./figures/electrical.
+pdf> <./figures/bare_yang_benchmark.pdf>]
+Underfull \vbox (badness 7869) has occurred while \output is active [4 <./figur
+es/architecture_reverse_fields.pdf>] [5 <./figures/geometry_sensitivity.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [6 <./reve
+rse_field_contacts.pdf> <./figures/bands_fields.pdf>] [7 <./figures/barrier.pdf
+> <./figures/reverse_400K.pdf>] (Manuscript_v5_figures_aligned.bbl) [8]
+(Manuscript_v5_figures_aligned.aux) )
+(see the transcript file for additional information)<C:/Users/haria/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/haria/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users
+/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
+C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i6.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi7.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi9.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/haria/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/haria/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/haria/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/haria/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/h
+aria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
+Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.p
+fb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmsy6.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb><C:/Users/haria/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/haria/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/haria/AppData/Local
+/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/haria/AppData/Local
+/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/haria/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/haria/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Manuscript_v5_figures_aligned.pdf (8 pages, 1134273 bytes).
+Transcript written on Manuscript_v5_figures_aligned.log.
